@@ -1,0 +1,17 @@
+#####################################
+#                                   #
+#        SAM'S TO DO LIST           #
+#                                   #
+#####################################
+
+* buttons on titlebar of forum_sam.php
+* number of replies on forum_sam.php. maybe put a new column in topic table
+* user id to username script. possibly do as a single query batch
+* login css overlay
+* login script integrated to header $_GET["op"]=1
+* logout script integrated to header $_GET["op"]=2
+* nice css registration page $_GET["op"]=3 on index
+* make getlink ignore $_GET["op"]
+* css view topic page
+* make the css footer bar snap to bottom of browser window if not enough content
+* make "projects" page

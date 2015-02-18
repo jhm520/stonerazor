@@ -1,0 +1,142 @@
+textarea {
+	resize:vertical;
+	min-height:60px;
+}
+
+div#forumlist > ul > li a {
+ color: #3c4531;
+ text-decoration: none;
+ border-bottom: 1px dashed #A0A080;
+ }
+
+div#forumlist > ul > li:hover a {
+ border-color: #E0E0C0;
+ }
+
+div#forumlist ul li a:hover {
+ color: #000;
+ }
+
+div#forumlist ul 
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+div#forumlist > ul > li
+{
+	color: #3c4531;
+	height: 60px;
+	clear: both;
+	border-bottom: 1px solid #A0A080;
+}
+
+div#forumlist > ul > li:hover
+{
+	background-color: #A0A080;
+	box-shadow: inset 0 0 10px #7D7D64;
+}
+
+div#forumlist ul li ul
+{
+	float: right;
+	width: 300px;
+}
+
+div#forumlist > ul > li > a
+{
+	display: block;
+	height: 55px;
+	overflow: hidden; /* makes it the max width possible depending on window size */
+	font-size: 18px;
+	padding: 5px 0 0 65px;
+	color: #3c4531;
+	text-decoration: none;
+	border: none;
+}
+
+div#forumlist > ul > li > a#gen
+{
+	background: url('icons/forum_gen.svg') no-repeat top left;
+	background-size: contain;
+}
+
+div#forumlist > ul > li > a#rbs
+{
+	background: url('icons/forum_rbs.svg') no-repeat top left;
+	background-size: contain;
+}
+ 
+div#forumlist > ul > li > a#dev
+{
+	background: url('icons/forum_dev.svg') no-repeat top left;
+	background-size: contain;
+}
+
+/* pagiation */
+
+div.pagiation {
+ padding: 20px 0;
+ }
+
+div.pagiation .newer { /* works for a or span */
+ float: left;
+ margin-left: 60px;
+ }
+
+div.pagiation .older { /* works for a or span */
+ float: right;
+ margin-right: 60px;
+ }
+
+div.pagiation a {
+ padding: 5px;
+ color: #3c4531;
+ text-decoration: none;
+ font-size: 18px;
+ }
+
+div.pagiation span {
+ padding: 5px;
+ color: #A0A080;
+ font-size: 18px;
+ }
+
+div.pagiation div.numbers {
+ text-align: center;
+ margin: 5px 10px;
+ }
+
+div.pagiation div.numbers a.number {
+ padding: 5px 15px;
+ }
+
+div.pagiation div.numbers a.selected {
+ border-bottom: 2px solid #A0A080;
+ }
+
+div.pagiation a:hover {
+ background-color: #402020;
+ color: #E0E0C0;
+ box-shadow: inset 0 0 15px #111;
+ }
+
+/* activity */
+
+div.activity {
+ padding: 20px 65px;
+ color: #3c4531;
+ }
+
+div.activity a {
+ color: #3c4531;
+ text-decoration: none;
+ border-bottom: 1px dashed #A0A080;
+ }
+
+div.activity a:hover {
+ color: #000;
+ }
+
+/* new topic box -- temporarily in default.css */

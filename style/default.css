@@ -1,0 +1,342 @@
+/*
+Theme:
+
+604020 brown
+202020 black
+402020 red
+A0A080 midgreen
+E0E0C0 lightgreen
+
+213646 darkblue
+
+*/
+
+html, body {
+ height: 100%;
+ margin: 0;
+ }
+ 
+div#metametacontainer {
+ min-height: 100%;
+ position: relative;
+ }
+
+body {
+ background-color: #202020;
+ font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+ min-width: 925px;
+ }
+
+#header {
+ background: -webkit-linear-gradient(#202020, #0c0c0c);
+ background: -o-linear-gradient(#202020, #0c0c0c);
+ background: -moz-linear-gradient(#202020, #0c0c0c);
+ background: linear-gradient(#202020, #0c0c0c);
+ line-height: 51px; /* line-height works better with padded elements inside */
+ margin-bottom: 62px;
+ position: fixed;
+ top: 0;
+ width: 100%;
+ }
+
+#header ul {
+ margin: 0;
+ padding: 0;
+ list-style-type: none;
+ }
+
+#header ul#header_right {
+ float: right;
+ }
+
+#header ul#header_left {
+ float: left;
+ }
+
+#header ul li {
+ display: inline;
+ float: left; /* gets rid of whitespace between items */
+ }
+
+#header ul li a {
+ text-decoration: none;
+ color: #696969;
+ font-size: 19px;
+ padding: 15px 23px;
+ }
+
+#header ul li a:hover, #header ul li:hover a {
+ color: #939393;
+ }
+
+#header ul li.newmsg a {
+ padding-left: 55px;
+ background-image: url('icons/newmsg.svg');
+ background-repeat: no-repeat;
+ background-position: 23px 18px;
+ background-size: 20px 19px;
+ }
+
+/* hover menus */
+
+#header ul li ul {
+ display: none;
+ }
+
+#header ul li ul li {
+ float: none;
+ }
+
+#header ul li:hover > ul {
+ display: block;
+ margin: 0;
+ padding: 10px 0;
+ background-color: #0c0c0c;
+ position: absolute;
+ top: 51px;
+ box-shadow: 0 0 15px #111;
+ }
+
+#header ul li ul a {
+ display: block;
+ line-height: 19px;
+ padding: 5px 23px;
+ }
+
+#header ul li ul a:hover {
+ background-color: #222;
+ }
+
+#header ul li ul a.nohover:hover {
+	background-color: #0c0c0c;
+}
+
+#header ul li ul li.unread a {
+ padding-left: 55px;
+ background-image: url('icons/unread.svg');
+ background-repeat: no-repeat;
+ background-position: 23px 6px;
+ }
+
+#header ul li ul li.read a {
+ padding-left: 55px;
+ background-image: url('icons/read.svg');
+ background-repeat: no-repeat;
+ background-position: 23px 4px;
+ }
+
+#header ul#header_right li ul
+{
+	right: 0;
+}
+
+#header ul li ul li span.shortcut {
+ float: right;
+ display: inline-block;
+ width: 60px;
+ padding-left: 30px;
+ color: #696969;
+ }
+
+/* end hover menus */
+ 
+#header ul li a.selected {
+ color: #bdbdbd;
+ }
+
+#header a#logo {
+ text-decoration: none;
+ font-size: 25px;
+ color: #bdbdbd;
+ padding: 0 50px;
+ float: left;
+ }
+
+li.icon32 a svg path {
+ fill: #696969;
+ }
+
+li.icon32 a:hover svg path {
+ fill: #939393;
+ }
+
+li.icon32 svg {
+ display: inline-block;
+ width: 20px;
+ height: 32px;
+ position: relative; /* the only way I could get it to work without fucking up the login/out button */
+ top: 10px;
+ }
+
+#header ul#header_right li.icon32 a {
+ }
+
+#metacontainer {
+ padding: 75px 0 62px 0;
+ }
+ 
+#container {
+ background-color: #E0E0C0;
+ border-radius: 7px 7px 5px 5px; /* 7px borders on top r and l to avoid graphical glitch with titlebar rounded edges */
+ max-width: 1004px; 
+ /*margin: 75px auto 62px auto; was what we had before, and bg color was declared here too */
+ margin: 0 auto;
+ box-shadow: 0 0 15px #111;
+ }
+
+div.titlebar {
+ background-color: #604020; /*D95715*/
+ border-radius: 5px 5px 0 0;
+ height: 30px;
+ }
+
+div.titlebar ul {
+ padding: 0;
+ margin: 0;
+ list-style-type: none;
+ }
+
+div.titlebar ul.nav {
+ float: right;
+ }
+
+div.titlebar ul li {
+ display: inline;
+ float: left;
+ }
+
+div.titlebar ul.nav li a
+{
+	text-decoration: none;
+	color: #A0A080;
+	font-size: 20px;
+	padding: 5px 5px 5px 5px;
+	line-height: 28px;
+	margin: 0 5px 0 10px;
+}
+
+div.titlebar ul.nav li a:hover {
+ color: #E0E0C0;
+ }
+
+div.titlebar ul.navicons {
+ display: inline;
+ float: left;
+ }
+
+div.titlebar ul.navicons a {
+ padding: 0 5px;
+ }
+
+div.titlebar ul.navicons a svg path {
+ fill: #A0A080;
+ }
+ 
+div.titlebar ul.navicons a:hover svg path {
+ fill: #E0E0C0;
+ }
+
+div.titlebar ul.navicons svg {
+ display: inline-block;
+ width: 30px;
+ height: 30px;
+ }
+
+div.titlebar span.titletext {
+ padding-left: 30px;
+ line-height: 28px;
+ color: #A0A080;
+ font-size: 20px;
+ float: left;
+ }
+
+div.titlefade {
+ margin: 0;
+ background: -webkit-linear-gradient(#604020, #E0E0C0);
+ background: -o-linear-gradient(#604020, #E0E0C0);
+ background: -moz-linear-gradient(#604020, #E0E0C0);
+ background: linear-gradient(#604020, #E0E0C0);
+ height: 5px;
+ }
+
+div#footer {
+ font-size: 15px;
+ background: -webkit-linear-gradient(#111, #402020);
+ background: -o-linear-gradient(#111, #402020);
+ background: -moz-linear-gradient(#111, #402020);
+ background: linear-gradient(#111, #402020);
+ color: #A0A080;
+ /*margin-top: 60px;*/
+ /*padding: 5px 30px;*/
+ padding-top: 10px;
+ padding-bottom: 10px;
+ text-align: right;
+ width: 100%;
+ position: absolute;
+ bottom: 0;
+ }
+
+div#footer span {
+ padding-right: 20px;
+ }
+
+div#footer a {
+ color: #A0A080;
+ text-decoration: none;
+ margin-right: 30px;
+ }
+
+div#footer a:hover {
+ color: #E0E0C0;
+ }
+
+/* alerts */
+
+div#alertframe {
+ display: none;
+ position: fixed;
+ top: 0px;
+ left: 0px;
+ width: 100%;
+ height: 100%;
+ background-color: #000000;
+ opacity: 0.6;
+ filter: alpha(opacity=60); /* For IE8 and earlier */
+ z-index: 10;
+ }
+
+div#alertframe > a{
+ display: block;
+ width: 100%;
+ height: 100%;
+ text-decoration: none;
+ }
+
+div#loginbox, div#registerbox {
+ display: none;
+ width: 346px;
+ margin-left: -173px; /* to counteract half of the width */
+ margin-top: 150px;
+ position: fixed;
+ padding: 10px 10px 40px 10px;
+ top: 0;
+ left: 50%;
+ background: -webkit-linear-gradient(#202020, #0c0c0c);
+ background: -o-linear-gradient(#202020, #0c0c0c);
+ background: -moz-linear-gradient(#202020, #0c0c0c);
+ background: linear-gradient(#202020, #0c0c0c);
+ border-radius: 10px;
+ z-index: 20;
+ color: #ffffff;
+ }
+
+div#loginbox  p.logintext, div#registerbox p.logintext, div#newtopicbox p.logintext {
+ text-align: center;
+ padding-bottom: 10px;
+ }
+
+div#loginbox input, div#registerbox input {
+ position: absolute;
+ left: 130px;
+ width: 200px;
+ }

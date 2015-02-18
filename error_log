@@ -1,0 +1,758 @@
+[14-Dec-2014 00:26:33 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home3/croston/public_html/scripts/getlink.php on line 77
+[14-Dec-2014 00:55:55 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/croston/public_html/scripts/getlink.php on line 63
+[14-Dec-2014 00:56:32 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/croston/public_html/scripts/getlink.php on line 63
+[14-Dec-2014 00:57:47 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/croston/public_html/scripts/getlink.php on line 63
+[14-Dec-2014 00:57:50 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/croston/public_html/scripts/getlink.php on line 63
+[14-Dec-2014 00:57:53 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/croston/public_html/scripts/getlink.php on line 63
+[14-Dec-2014 01:01:14 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/croston/public_html/scripts/getlink.php on line 63
+[14-Dec-2014 01:03:00 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/croston/public_html/scripts/getlink.php on line 63
+[14-Dec-2014 01:05:43 America/Chicago] PHP Parse error:  syntax error, unexpected '$loop_key' (T_VARIABLE) in /home3/croston/public_html/scripts/getlink.php on line 60
+[14-Dec-2014 01:06:03 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/croston/public_html/scripts/getlink.php on line 62
+[14-Dec-2014 01:06:20 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/croston/public_html/scripts/getlink.php on line 62
+[14-Dec-2014 01:06:24 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/croston/public_html/scripts/getlink.php on line 62
+[14-Dec-2014 01:06:31 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/croston/public_html/scripts/getlink.php on line 62
+[14-Dec-2014 01:30:51 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/croston/public_html/scripts/getlink.php on line 62
+[14-Dec-2014 01:30:52 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/croston/public_html/scripts/getlink.php on line 62
+[14-Dec-2014 01:30:57 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/croston/public_html/scripts/getlink.php on line 62
+[14-Dec-2014 01:30:58 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/croston/public_html/scripts/getlink.php on line 62
+[14-Dec-2014 01:31:44 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home3/croston/public_html/scripts/getlink.php on line 60
+[14-Dec-2014 01:32:30 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/croston/public_html/scripts/getlink.php on line 62
+[14-Dec-2014 01:33:10 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/croston/public_html/scripts/getlink.php on line 62
+[14-Dec-2014 01:33:57 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/croston/public_html/scripts/getlink.php on line 62
+[14-Dec-2014 01:34:04 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/croston/public_html/scripts/getlink.php on line 62
+[14-Dec-2014 01:34:18 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/croston/public_html/scripts/getlink.php on line 62
+[14-Dec-2014 01:34:19 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/croston/public_html/scripts/getlink.php on line 62
+[14-Dec-2014 01:34:31 America/Chicago] PHP Fatal error:  Call to undefined function getlink() in /home3/croston/public_html/test.php on line 3
+[14-Dec-2014 01:34:49 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/croston/public_html/scripts/getlink.php on line 52
+[14-Dec-2014 01:35:06 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/croston/public_html/scripts/getlink.php on line 62
+[14-Dec-2014 01:35:22 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home3/croston/public_html/scripts/getlink.php on line 62
+[14-Dec-2014 01:36:00 America/Chicago] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE) in /home3/croston/public_html/scripts/getlink.php on line 1
+[14-Dec-2014 01:36:49 America/Chicago] PHP Parse error:  syntax error, unexpected '"scripts/getlink.php"' (T_CONSTANT_ENCAPSED_STRING) in /home3/croston/public_html/test.php on line 1
+[14-Dec-2014 01:37:16 America/Chicago] PHP Parse error:  syntax error, unexpected '"scripts/getlink.php"' (T_CONSTANT_ENCAPSED_STRING) in /home3/croston/public_html/test.php on line 1
+[14-Dec-2014 01:37:18 America/Chicago] PHP Parse error:  syntax error, unexpected '"scripts/getlink.php"' (T_CONSTANT_ENCAPSED_STRING) in /home3/croston/public_html/test.php on line 1
+[14-Dec-2014 01:38:27 America/Chicago] PHP Parse error:  syntax error, unexpected '"scripts/getlink.php"' (T_CONSTANT_ENCAPSED_STRING) in /home3/croston/public_html/test.php on line 1
+[14-Dec-2014 01:38:51 America/Chicago] PHP Parse error:  syntax error, unexpected '"scripts/getlink.php"' (T_CONSTANT_ENCAPSED_STRING) in /home3/croston/public_html/test.php on line 1
+[14-Dec-2014 01:38:53 America/Chicago] PHP Parse error:  syntax error, unexpected '"scripts/getlink.php"' (T_CONSTANT_ENCAPSED_STRING) in /home3/croston/public_html/test.php on line 1
+[14-Dec-2014 01:39:42 America/Chicago] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE) in /home3/croston/public_html/scripts/getlink.php on line 1
+[14-Dec-2014 01:39:44 America/Chicago] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE) in /home3/croston/public_html/scripts/getlink.php on line 1
+[14-Dec-2014 01:40:45 America/Chicago] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE) in /home3/croston/public_html/scripts/getlink.php on line 1
+[14-Dec-2014 01:40:46 America/Chicago] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE) in /home3/croston/public_html/scripts/getlink.php on line 1
+[14-Dec-2014 01:40:47 America/Chicago] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE) in /home3/croston/public_html/scripts/getlink.php on line 1
+[14-Dec-2014 01:40:48 America/Chicago] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE) in /home3/croston/public_html/scripts/getlink.php on line 1
+[14-Dec-2014 01:41:05 America/Chicago] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE) in /home3/croston/public_html/scripts/getlink.php on line 1
+[14-Dec-2014 01:41:06 America/Chicago] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE) in /home3/croston/public_html/scripts/getlink.php on line 1
+[14-Dec-2014 01:41:07 America/Chicago] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE) in /home3/croston/public_html/scripts/getlink.php on line 1
+[14-Dec-2014 01:42:50 America/Chicago] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE) in /home3/croston/public_html/scripts/getlink.php on line 1
+[14-Dec-2014 01:42:51 America/Chicago] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE) in /home3/croston/public_html/scripts/getlink.php on line 1
+[14-Dec-2014 01:43:20 America/Chicago] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE) in /home3/croston/public_html/scripts/getlink.php on line 1
+[14-Dec-2014 01:44:11 America/Chicago] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE) in /home3/croston/public_html/scripts/getlink.php on line 1
+[14-Dec-2014 01:44:44 America/Chicago] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE) in /home3/croston/public_html/scripts/getlink.php on line 1
+[14-Dec-2014 01:44:46 America/Chicago] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE) in /home3/croston/public_html/scripts/getlink.php on line 1
+[14-Dec-2014 01:45:33 America/Chicago] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE) in /home3/croston/public_html/scripts/getlink.php on line 1
+[14-Dec-2014 01:45:41 America/Chicago] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE) in /home3/croston/public_html/scripts/getlink.php on line 1
+[14-Dec-2014 01:46:00 America/Chicago] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE) in /home3/croston/public_html/scripts/getlink.php on line 1
+[14-Dec-2014 01:46:01 America/Chicago] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE) in /home3/croston/public_html/scripts/getlink.php on line 1
+[14-Dec-2014 01:46:35 America/Chicago] PHP Fatal error:  Call to undefined function getlink() in /home3/croston/public_html/test.php on line 3
+[14-Dec-2014 01:47:10 America/Chicago] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE) in /home3/croston/public_html/scripts/getlink.php on line 1
+[14-Dec-2014 01:47:12 America/Chicago] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE) in /home3/croston/public_html/scripts/getlink.php on line 1
+[14-Dec-2014 01:48:09 America/Chicago] PHP Parse error:  syntax error, unexpected '"kill.php"' (T_CONSTANT_ENCAPSED_STRING) in /home3/croston/public_html/scripts/getlink.php on line 1
+[14-Dec-2014 01:48:39 America/Chicago] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE) in /home3/croston/public_html/scripts/getlink.php on line 1
+[14-Dec-2014 01:48:51 America/Chicago] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE) in /home3/croston/public_html/scripts/getlink.php on line 1
+[14-Dec-2014 01:49:02 America/Chicago] PHP Fatal error:  Call to undefined function getlink() in /home3/croston/public_html/test.php on line 3
+[14-Dec-2014 02:21:46 America/Chicago] PHP Fatal error:  Function name must be a string in /home3/croston/public_html/scripts/getlink.php on line 85
+[14-Dec-2014 02:40:19 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home3/croston/public_html/login.php:4) in /home3/croston/public_html/login.php on line 10
+[14-Dec-2014 02:40:19 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/croston/public_html/login.php:4) in /home3/croston/public_html/login.php on line 10
+[14-Dec-2014 02:43:40 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home3/croston/public_html/login.php:4) in /home3/croston/public_html/login.php on line 10
+[14-Dec-2014 02:43:41 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/croston/public_html/login.php:4) in /home3/croston/public_html/login.php on line 10
+[14-Dec-2014 02:44:15 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home3/croston/public_html/login.php:4) in /home3/croston/public_html/login.php on line 10
+[14-Dec-2014 02:44:15 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/croston/public_html/login.php:4) in /home3/croston/public_html/login.php on line 10
+[14-Dec-2014 02:46:50 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home3/croston/public_html/login.php:4) in /home3/croston/public_html/login.php on line 10
+[14-Dec-2014 02:46:50 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/croston/public_html/login.php:4) in /home3/croston/public_html/login.php on line 10
+[14-Dec-2014 18:41:50 America/Chicago] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home3/croston/public_html/scripts/getlink.php on line 72
+[14-Dec-2014 18:45:57 America/Chicago] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home3/croston/public_html/scripts/getlink.php on line 72
+[14-Dec-2014 19:16:23 America/Chicago] PHP Parse error:  syntax error, unexpected '"WTF"' (T_CONSTANT_ENCAPSED_STRING) in /home3/croston/public_html/scripts/getlink.php on line 1
+[14-Dec-2014 19:16:27 America/Chicago] PHP Parse error:  syntax error, unexpected '"WTF"' (T_CONSTANT_ENCAPSED_STRING) in /home3/croston/public_html/scripts/getlink.php on line 1
+[14-Dec-2014 19:16:38 America/Chicago] PHP Parse error:  syntax error, unexpected '"WTF"' (T_CONSTANT_ENCAPSED_STRING) in /home3/croston/public_html/scripts/getlink.php on line 1
+[14-Dec-2014 19:17:05 America/Chicago] PHP Parse error:  syntax error, unexpected '"WTF"' (T_CONSTANT_ENCAPSED_STRING) in /home3/croston/public_html/scripts/getlink.php on line 1
+[15-Dec-2014 21:07:37 America/Chicago] PHP Warning:  require_once(kill.php): failed to open stream: No such file or directory in /home3/croston/public_html/register.php on line 2
+[15-Dec-2014 21:07:37 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'kill.php' (include_path='.:/opt/php54/lib/php') in /home3/croston/public_html/register.php on line 2
+[15-Dec-2014 21:07:40 America/Chicago] PHP Warning:  require_once(kill.php): failed to open stream: No such file or directory in /home3/croston/public_html/register.php on line 2
+[15-Dec-2014 21:07:40 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'kill.php' (include_path='.:/opt/php54/lib/php') in /home3/croston/public_html/register.php on line 2
+[15-Dec-2014 21:07:53 America/Chicago] PHP Warning:  require_once(kill.php): failed to open stream: No such file or directory in /home3/croston/public_html/register.php on line 2
+[15-Dec-2014 21:07:53 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'kill.php' (include_path='.:/opt/php54/lib/php') in /home3/croston/public_html/register.php on line 2
+[15-Dec-2014 21:07:58 America/Chicago] PHP Warning:  require_once(kill.php): failed to open stream: No such file or directory in /home3/croston/public_html/register.php on line 2
+[15-Dec-2014 21:07:58 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'kill.php' (include_path='.:/opt/php54/lib/php') in /home3/croston/public_html/register.php on line 2
+[15-Dec-2014 21:08:21 America/Chicago] PHP Warning:  require_once(kill.php): failed to open stream: No such file or directory in /home3/croston/public_html/register.php on line 2
+[15-Dec-2014 21:08:21 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'kill.php' (include_path='.:/opt/php54/lib/php') in /home3/croston/public_html/register.php on line 2
+[15-Dec-2014 21:08:42 America/Chicago] PHP Warning:  require_once(kill.php): failed to open stream: No such file or directory in /home3/croston/public_html/register.php on line 2
+[15-Dec-2014 21:08:42 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'kill.php' (include_path='.:/opt/php54/lib/php') in /home3/croston/public_html/register.php on line 2
+[15-Dec-2014 21:09:14 America/Chicago] PHP Warning:  require_once(kill.php): failed to open stream: No such file or directory in /home3/croston/public_html/register.php on line 2
+[15-Dec-2014 21:09:14 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'kill.php' (include_path='.:/opt/php54/lib/php') in /home3/croston/public_html/register.php on line 2
+[15-Dec-2014 21:10:13 America/Chicago] PHP Warning:  require_once(kill.php): failed to open stream: No such file or directory in /home3/croston/public_html/register.php on line 2
+[15-Dec-2014 21:10:13 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'kill.php' (include_path='.:/opt/php54/lib/php') in /home3/croston/public_html/register.php on line 2
+[15-Dec-2014 21:10:16 America/Chicago] PHP Warning:  require_once(kill.php): failed to open stream: No such file or directory in /home3/croston/public_html/register.php on line 2
+[15-Dec-2014 21:10:16 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'kill.php' (include_path='.:/opt/php54/lib/php') in /home3/croston/public_html/register.php on line 2
+[15-Dec-2014 21:10:21 America/Chicago] PHP Warning:  require_once(kill.php): failed to open stream: No such file or directory in /home3/croston/public_html/register.php on line 2
+[15-Dec-2014 21:10:21 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'kill.php' (include_path='.:/opt/php54/lib/php') in /home3/croston/public_html/register.php on line 2
+[15-Dec-2014 21:10:33 America/Chicago] PHP Warning:  require_once(kill.php): failed to open stream: No such file or directory in /home3/croston/public_html/register.php on line 2
+[15-Dec-2014 21:10:33 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'kill.php' (include_path='.:/opt/php54/lib/php') in /home3/croston/public_html/register.php on line 2
+[15-Dec-2014 21:10:54 America/Chicago] PHP Fatal error:  Call to undefined function esc_url() in /home3/croston/public_html/register.php on line 37
+[15-Dec-2014 21:38:46 America/Chicago] PHP Fatal error:  Call to undefined function esc_url() in /home3/croston/public_html/register.php on line 37
+[15-Dec-2014 22:18:20 America/Chicago] PHP Fatal error:  Call to undefined function esc_url() in /home3/croston/public_html/register.php on line 37
+[15-Dec-2014 22:18:29 America/Chicago] PHP Fatal error:  Call to undefined function esc_url() in /home3/croston/public_html/register.php on line 37
+[15-Dec-2014 22:18:40 America/Chicago] PHP Warning:  include(formatting.php): failed to open stream: No such file or directory in /home3/croston/public_html/scripts/header.php on line 35
+[15-Dec-2014 22:18:40 America/Chicago] PHP Warning:  include(formatting.php): failed to open stream: No such file or directory in /home3/croston/public_html/scripts/header.php on line 35
+[15-Dec-2014 22:18:40 America/Chicago] PHP Warning:  include(): Failed opening 'formatting.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/croston/public_html/scripts/header.php on line 35
+[15-Dec-2014 22:18:40 America/Chicago] PHP Fatal error:  Call to undefined function esc_url() in /home3/croston/public_html/register.php on line 37
+[15-Dec-2014 22:21:08 America/Chicago] PHP Warning:  include(formatting.php): failed to open stream: No such file or directory in /home3/croston/public_html/scripts/header.php on line 35
+[15-Dec-2014 22:21:08 America/Chicago] PHP Warning:  include(formatting.php): failed to open stream: No such file or directory in /home3/croston/public_html/scripts/header.php on line 35
+[15-Dec-2014 22:21:08 America/Chicago] PHP Warning:  include(): Failed opening 'formatting.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/croston/public_html/scripts/header.php on line 35
+[15-Dec-2014 22:21:12 America/Chicago] PHP Warning:  include(formatting.php): failed to open stream: No such file or directory in /home3/croston/public_html/scripts/header.php on line 35
+[15-Dec-2014 22:21:12 America/Chicago] PHP Warning:  include(formatting.php): failed to open stream: No such file or directory in /home3/croston/public_html/scripts/header.php on line 35
+[15-Dec-2014 22:21:12 America/Chicago] PHP Warning:  include(): Failed opening 'formatting.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/croston/public_html/scripts/header.php on line 35
+[16-Dec-2014 00:53:22 America/Chicago] PHP Parse error:  syntax error, unexpected '$error_msg' (T_VARIABLE) in /home3/croston/public_html/scripts/register_script.php on line 4
+[16-Dec-2014 00:54:01 America/Chicago] PHP Parse error:  syntax error, unexpected '$error_msg' (T_VARIABLE) in /home3/croston/public_html/scripts/register_script.php on line 4
+[16-Dec-2014 00:54:32 America/Chicago] PHP Parse error:  syntax error, unexpected '$error_msg' (T_VARIABLE) in /home3/croston/public_html/scripts/register_script.php on line 4
+[16-Dec-2014 00:55:07 America/Chicago] PHP Parse error:  syntax error, unexpected '$error_msg' (T_VARIABLE) in /home3/croston/public_html/scripts/register_script.php on line 4
+[16-Dec-2014 00:55:10 America/Chicago] PHP Parse error:  syntax error, unexpected '$error_msg' (T_VARIABLE) in /home3/croston/public_html/scripts/register_script.php on line 4
+[16-Dec-2014 01:46:48 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/scripts/register_script.php on line 47
+[16-Dec-2014 01:48:34 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/scripts/register_script.php on line 45
+[16-Dec-2014 01:48:37 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/scripts/register_script.php on line 45
+[16-Dec-2014 01:48:46 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/scripts/register_script.php on line 45
+[16-Dec-2014 01:49:43 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/scripts/register_script.php on line 45
+[16-Dec-2014 01:53:12 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/scripts/register_script.php on line 65
+[16-Dec-2014 02:01:01 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/croston/public_html/scripts/register_script.php:81) in /home3/croston/public_html/scripts/register_script.php on line 91
+[16-Dec-2014 02:08:18 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/croston/public_html/scripts/register_script.php:89) in /home3/croston/public_html/scripts/register_script.php on line 91
+[16-Dec-2014 11:38:20 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/croston/public_html/scripts/register_script.php:81) in /home3/croston/public_html/scripts/register_script.php on line 93
+[16-Dec-2014 11:39:43 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/croston/public_html/scripts/register_script.php:92) in /home3/croston/public_html/scripts/register_script.php on line 94
+[16-Dec-2014 11:39:46 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/croston/public_html/scripts/register_script.php:92) in /home3/croston/public_html/scripts/register_script.php on line 94
+[16-Dec-2014 11:39:55 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/croston/public_html/scripts/register_script.php:92) in /home3/croston/public_html/scripts/register_script.php on line 94
+[16-Dec-2014 11:57:42 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/croston/public_html/scripts/register_script.php:84) in /home3/croston/public_html/scripts/register_script.php on line 90
+[16-Dec-2014 11:58:01 America/Chicago] PHP Warning:  mysqli_stmt::close(): Couldn't fetch mysqli_stmt in /home3/croston/public_html/scripts/register_script.php on line 42
+[16-Dec-2014 11:58:01 America/Chicago] PHP Warning:  mysqli_stmt::close(): Couldn't fetch mysqli_stmt in /home3/croston/public_html/scripts/register_script.php on line 62
+[16-Dec-2014 12:01:54 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home3/croston/public_html/scripts/register_script.php on line 98
+[17-Dec-2014 02:04:19 America/Chicago] PHP Fatal error:  Call to undefined function login_check() in /home3/croston/public_html/login.php on line 7
+[17-Dec-2014 02:40:45 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home3/croston/public_html/scripts/login_script.php on line 95
+[17-Dec-2014 02:41:53 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/croston/public_html/scripts/login_script.php:74) in /home3/croston/public_html/process_login.php on line 13
+[17-Dec-2014 02:48:03 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/croston/public_html/scripts/login_script.php:77) in /home3/croston/public_html/process_login.php on line 13
+[18-Dec-2014 00:54:12 America/Chicago] PHP Parse error:  syntax error, unexpected '$prep_stmt' (T_VARIABLE) in /home3/croston/public_html/forum.php on line 4
+[18-Dec-2014 00:54:27 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home3/croston/public_html/forum.php on line 12
+[18-Dec-2014 00:54:50 America/Chicago] PHP Warning:  include_once(header.php): failed to open stream: No such file or directory in /home3/croston/public_html/forum.php on line 2
+[18-Dec-2014 00:54:50 America/Chicago] PHP Warning:  include_once(): Failed opening 'header.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/croston/public_html/forum.php on line 2
+[18-Dec-2014 00:54:50 America/Chicago] PHP Fatal error:  Call to a member function prepare() on a non-object in /home3/croston/public_html/forum.php on line 5
+[18-Dec-2014 00:55:10 America/Chicago] PHP Fatal error:  Call to undefined method mysqli_stmt::fetch_array() in /home3/croston/public_html/forum.php on line 25
+[18-Dec-2014 00:57:02 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/croston/public_html/forum.php on line 26
+[18-Dec-2014 00:57:02 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/croston/public_html/forum.php on line 26
+[18-Dec-2014 01:01:54 America/Chicago] PHP Fatal error:  Call to undefined method mysqli_stmt::fetch_all() in /home3/croston/public_html/forum.php on line 12
+[18-Dec-2014 01:02:30 America/Chicago] PHP Fatal error:  Call to undefined method mysqli_stmt::fetch_all() in /home3/croston/public_html/forum.php on line 12
+[18-Dec-2014 01:02:33 America/Chicago] PHP Fatal error:  Call to undefined method mysqli_stmt::fetch_all() in /home3/croston/public_html/forum.php on line 12
+[18-Dec-2014 01:04:07 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/croston/public_html/forum.php on line 27
+[18-Dec-2014 01:04:20 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home3/croston/public_html/forum.php on line 27
+[18-Dec-2014 01:10:13 America/Chicago] PHP Fatal error:  Call to a member function fetch_row() on a non-object in /home3/croston/public_html/forum.php on line 27
+[18-Dec-2014 01:13:50 America/Chicago] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home3/croston/public_html/forum.php on line 12
+[18-Dec-2014 01:19:23 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home3/croston/public_html/forum.php on line 16
+[18-Dec-2014 02:04:05 America/Chicago] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home3/croston/public_html/forum.php on line 12
+[18-Dec-2014 02:05:30 America/Chicago] PHP Parse error:  syntax error, unexpected '$topic_subject' (T_VARIABLE) in /home3/croston/public_html/forum.php on line 12
+[18-Dec-2014 02:06:16 America/Chicago] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home3/croston/public_html/forum.php on line 12
+[19-Dec-2014 00:46:57 America/Chicago] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home3/croston/public_html/forum.php on line 12
+[19-Dec-2014 01:40:19 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/croston/public_html/scripts/header.php:49) in /home3/croston/public_html/process_login.php on line 13
+[19-Dec-2014 01:46:24 America/Chicago] PHP Parse error:  syntax error, unexpected 'UTF' (T_STRING) in /home3/croston/public_html/forum.php on line 20
+[19-Dec-2014 01:47:41 America/Chicago] PHP Fatal error:  Call to a member function fetch() on a non-object in /home3/croston/public_html/forum.php on line 31
+[19-Dec-2014 01:47:48 America/Chicago] PHP Fatal error:  Call to a member function fetch() on a non-object in /home3/croston/public_html/forum.php on line 31
+[19-Dec-2014 01:47:54 America/Chicago] PHP Fatal error:  Call to a member function fetch() on a non-object in /home3/croston/public_html/forum.php on line 31
+[19-Dec-2014 01:48:24 America/Chicago] PHP Fatal error:  Call to a member function fetch() on a non-object in /home3/croston/public_html/forum.php on line 31
+[19-Dec-2014 01:50:52 America/Chicago] PHP Fatal error:  Call to a member function fetch() on a non-object in /home3/croston/public_html/forum.php on line 31
+[19-Dec-2014 02:05:12 America/Chicago] PHP Fatal error:  Call to a member function fetch() on a non-object in /home3/croston/public_html/forum.php on line 31
+[19-Dec-2014 02:05:48 America/Chicago] PHP Fatal error:  Call to a member function fetch() on a non-object in /home3/croston/public_html/forum.php on line 31
+[19-Dec-2014 02:10:59 America/Chicago] PHP Fatal error:  Call to a member function fetch() on a non-object in /home3/croston/public_html/forum.php on line 32
+[19-Dec-2014 02:12:43 America/Chicago] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home3/croston/public_html/forum.php on line 16
+[19-Dec-2014 02:19:42 America/Chicago] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home3/croston/public_html/forum.php on line 16
+[19-Dec-2014 02:20:00 America/Chicago] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home3/croston/public_html/forum.php on line 16
+[19-Dec-2014 02:20:33 America/Chicago] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home3/croston/public_html/forum.php on line 16
+[19-Dec-2014 03:28:10 America/Chicago] PHP Warning:  printf(): Too few arguments in /home3/croston/public_html/forum.php on line 97
+[19-Dec-2014 03:28:10 America/Chicago] PHP Warning:  printf(): Too few arguments in /home3/croston/public_html/forum.php on line 97
+[19-Dec-2014 03:28:31 America/Chicago] PHP Warning:  printf(): Too few arguments in /home3/croston/public_html/forum.php on line 97
+[19-Dec-2014 03:28:31 America/Chicago] PHP Warning:  printf(): Too few arguments in /home3/croston/public_html/forum.php on line 97
+[19-Dec-2014 03:49:53 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home3/croston/public_html/forum.php on line 98
+[19-Dec-2014 03:50:05 America/Chicago] PHP Warning:  printf(): Too few arguments in /home3/croston/public_html/forum.php on line 98
+[19-Dec-2014 03:50:05 America/Chicago] PHP Warning:  printf(): Too few arguments in /home3/croston/public_html/forum.php on line 98
+[19-Dec-2014 03:50:48 America/Chicago] PHP Warning:  printf(): Too few arguments in /home3/croston/public_html/forum.php on line 98
+[19-Dec-2014 03:50:48 America/Chicago] PHP Warning:  printf(): Too few arguments in /home3/croston/public_html/forum.php on line 98
+[19-Dec-2014 03:51:47 America/Chicago] PHP Warning:  printf(): Too few arguments in /home3/croston/public_html/forum.php on line 98
+[19-Dec-2014 03:51:47 America/Chicago] PHP Warning:  printf(): Too few arguments in /home3/croston/public_html/forum.php on line 98
+[19-Dec-2014 14:35:32 America/Chicago] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE) in /home3/croston/public_html/forum.php on line 101
+[19-Dec-2014 14:35:59 America/Chicago] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE) in /home3/croston/public_html/forum.php on line 101
+[19-Dec-2014 14:36:00 America/Chicago] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE) in /home3/croston/public_html/forum.php on line 101
+[19-Dec-2014 14:36:23 America/Chicago] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE) in /home3/croston/public_html/forum.php on line 101
+[19-Dec-2014 14:40:22 America/Chicago] PHP Fatal error:  Call to a member function fetch() on a non-object in /home3/croston/public_html/forum.php on line 105
+[19-Dec-2014 14:41:05 America/Chicago] PHP Fatal error:  Call to a member function fetch() on a non-object in /home3/croston/public_html/forum.php on line 105
+[19-Dec-2014 14:59:24 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home3/croston/public_html/forum.php on line 119
+[19-Dec-2014 14:59:31 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home3/croston/public_html/forum.php on line 119
+[19-Dec-2014 18:41:25 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home3/croston/public_html/testcode.php on line 6
+[19-Dec-2014 18:44:27 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home3/croston/public_html/testcode.php on line 16
+[19-Dec-2014 18:55:16 America/Chicago] PHP Fatal error:  Call to undefined method mysqli::error() in /home3/croston/public_html/testcode.php on line 6
+[19-Dec-2014 19:19:49 America/Chicago] PHP Fatal error:  Call to undefined method mysqli_result::num_rows() in /home3/croston/public_html/forum.php on line 86
+[19-Dec-2014 19:21:31 America/Chicago] PHP Fatal error:  Call to undefined method mysqli_result::num_rows() in /home3/croston/public_html/forum.php on line 80
+[19-Dec-2014 19:22:08 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 19:22:41 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 19:23:29 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 19:24:10 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 19:27:59 America/Chicago] PHP Parse error:  syntax error, unexpected 'JOIN' (T_STRING) in /home3/croston/public_html/forum.php on line 77
+[19-Dec-2014 19:28:47 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 19:29:01 America/Chicago] PHP Parse error:  syntax error, unexpected '$row' (T_VARIABLE), expecting ',' or ';' in /home3/croston/public_html/forum.php on line 86
+[19-Dec-2014 19:29:12 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 19:44:05 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 19:48:15 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 19:48:56 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 19:49:13 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 19:49:59 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 19:50:10 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 19:54:19 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 19:57:03 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 19:57:16 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 19:57:54 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 19:58:01 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 19:58:41 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 20:01:13 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 20:01:15 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 20:03:11 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 20:05:43 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 20:05:45 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 20:05:49 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 20:07:16 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 20:08:15 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 20:09:26 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 20:10:50 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 20:11:53 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 20:14:03 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 20:16:04 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 20:17:12 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 20:21:41 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 20:21:53 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 20:25:23 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 20:27:16 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 20:28:13 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 20:29:05 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 20:41:07 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 20:43:11 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 20:43:14 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 20:43:26 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 20:47:28 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 20:49:31 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 22:01:44 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 22:02:12 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 22:42:55 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 22:50:45 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 214
+[19-Dec-2014 22:58:41 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 222
+[19-Dec-2014 22:59:31 America/Chicago] PHP Parse error:  syntax error, unexpected 'Error' (T_STRING) in /home3/croston/public_html/forum.php on line 79
+[19-Dec-2014 22:59:45 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 222
+[19-Dec-2014 23:15:19 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 222
+[19-Dec-2014 23:15:50 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 222
+[19-Dec-2014 23:29:45 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 241
+[19-Dec-2014 23:29:51 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 241
+[19-Dec-2014 23:33:44 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 244
+[19-Dec-2014 23:33:55 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 244
+[19-Dec-2014 23:33:55 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 244
+[19-Dec-2014 23:34:33 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 244
+[19-Dec-2014 23:34:35 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 244
+[19-Dec-2014 23:34:42 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 244
+[19-Dec-2014 23:34:42 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 244
+[19-Dec-2014 23:34:56 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 244
+[19-Dec-2014 23:34:56 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 244
+[19-Dec-2014 23:38:18 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 244
+[19-Dec-2014 23:38:39 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 244
+[19-Dec-2014 23:38:52 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 244
+[19-Dec-2014 23:47:50 America/Chicago] PHP Fatal error:  Call to undefined function logincheck() in /home3/croston/public_html/forum.php on line 103
+[19-Dec-2014 23:47:54 America/Chicago] PHP Fatal error:  Call to undefined function logincheck() in /home3/croston/public_html/forum.php on line 103
+[19-Dec-2014 23:48:10 America/Chicago] PHP Fatal error:  Call to undefined function logincheck() in /home3/croston/public_html/forum.php on line 103
+[19-Dec-2014 23:49:11 America/Chicago] PHP Fatal error:  Call to undefined function logincheck() in /home3/croston/public_html/forum.php on line 103
+[19-Dec-2014 23:50:00 America/Chicago] PHP Fatal error:  Call to undefined function logincheck() in /home3/croston/public_html/forum.php on line 103
+[19-Dec-2014 23:50:04 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 250
+[19-Dec-2014 23:50:10 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 250
+[19-Dec-2014 23:50:10 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 250
+[19-Dec-2014 23:50:23 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 250
+[19-Dec-2014 23:50:23 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 250
+[20-Dec-2014 00:14:09 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 251
+[20-Dec-2014 00:27:59 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 251
+[20-Dec-2014 00:28:01 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 251
+[20-Dec-2014 00:36:17 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 251
+[20-Dec-2014 00:48:12 America/Chicago] PHP Warning:  Division by zero in /home3/croston/public_html/new_topic.php on line 2
+[20-Dec-2014 00:48:12 America/Chicago] PHP Warning:  require(php): failed to open stream: No such file or directory in /home3/croston/public_html/new_topic.php on line 2
+[20-Dec-2014 00:48:12 America/Chicago] PHP Warning:  require(php): failed to open stream: No such file or directory in /home3/croston/public_html/new_topic.php on line 2
+[20-Dec-2014 00:48:12 America/Chicago] PHP Fatal error:  require(): Failed opening required 'php' (include_path='.:/opt/php54/lib/php') in /home3/croston/public_html/new_topic.php on line 2
+[20-Dec-2014 04:18:26 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 251
+[20-Dec-2014 06:05:44 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 251
+[20-Dec-2014 06:05:54 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 251
+[20-Dec-2014 06:05:58 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 251
+[20-Dec-2014 20:52:39 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 251
+[20-Dec-2014 20:52:51 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 251
+[20-Dec-2014 20:52:51 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 251
+[20-Dec-2014 20:55:40 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 258
+[20-Dec-2014 20:56:24 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 258
+[20-Dec-2014 21:05:10 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 260
+[20-Dec-2014 21:05:57 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 260
+[20-Dec-2014 21:06:59 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 260
+[20-Dec-2014 21:07:18 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 260
+[20-Dec-2014 21:07:19 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 260
+[20-Dec-2014 21:07:20 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 260
+[20-Dec-2014 21:16:06 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 260
+[20-Dec-2014 21:19:42 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 260
+[20-Dec-2014 21:19:55 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 260
+[20-Dec-2014 21:38:13 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 260
+[20-Dec-2014 21:40:15 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 260
+[20-Dec-2014 21:40:26 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 260
+[20-Dec-2014 21:42:01 America/Chicago] PHP Parse error:  syntax error, unexpected 'login_check' (T_STRING), expecting '(' in /home3/croston/public_html/forum.php on line 70
+[20-Dec-2014 21:42:18 America/Chicago] PHP Parse error:  syntax error, unexpected 'login_check' (T_STRING), expecting '(' in /home3/croston/public_html/forum.php on line 70
+[20-Dec-2014 21:42:37 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 265
+[20-Dec-2014 21:42:46 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 265
+[20-Dec-2014 21:43:28 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 265
+[20-Dec-2014 21:44:58 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 265
+[20-Dec-2014 21:45:38 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 266
+[20-Dec-2014 21:46:03 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 266
+[20-Dec-2014 21:47:21 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 266
+[20-Dec-2014 21:48:14 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 266
+[20-Dec-2014 21:49:40 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 265
+[20-Dec-2014 21:49:45 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 265
+[20-Dec-2014 21:49:45 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 265
+[20-Dec-2014 21:50:01 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 265
+[20-Dec-2014 21:50:01 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 265
+[20-Dec-2014 22:57:57 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 265
+[20-Dec-2014 22:58:34 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 265
+[20-Dec-2014 23:08:51 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 273
+[20-Dec-2014 23:08:57 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 273
+[20-Dec-2014 23:12:29 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 161
+[20-Dec-2014 23:13:15 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 161
+[20-Dec-2014 23:14:04 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 161
+[21-Dec-2014 00:09:35 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 161
+[21-Dec-2014 00:09:42 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 161
+[21-Dec-2014 00:10:20 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 161
+[21-Dec-2014 00:10:27 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 161
+[21-Dec-2014 00:10:51 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 161
+[21-Dec-2014 00:10:52 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 161
+[21-Dec-2014 00:12:56 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 161
+[21-Dec-2014 00:15:20 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 161
+[21-Dec-2014 00:15:28 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 161
+[21-Dec-2014 00:15:34 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 161
+[21-Dec-2014 00:15:52 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 161
+[21-Dec-2014 00:15:56 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 161
+[21-Dec-2014 00:18:22 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 161
+[21-Dec-2014 00:18:24 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 161
+[21-Dec-2014 00:18:28 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 161
+[21-Dec-2014 00:19:15 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 161
+[21-Dec-2014 00:19:20 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 161
+[21-Dec-2014 00:20:15 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 161
+[21-Dec-2014 00:21:03 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 161
+[21-Dec-2014 01:04:58 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 180
+[21-Dec-2014 01:06:42 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 184
+[21-Dec-2014 01:06:48 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 184
+[21-Dec-2014 01:10:49 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 190
+[21-Dec-2014 01:11:42 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 189
+[21-Dec-2014 01:12:39 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 189
+[21-Dec-2014 01:16:02 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 190
+[21-Dec-2014 01:18:11 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 190
+[21-Dec-2014 01:18:33 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 188
+[21-Dec-2014 01:18:43 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 188
+[21-Dec-2014 01:22:53 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/croston/public_html/scripts/html_header.php:22) in /home3/croston/public_html/forum.php on line 23
+[21-Dec-2014 01:22:53 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 188
+[21-Dec-2014 01:23:16 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 188
+[21-Dec-2014 01:23:16 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 188
+[21-Dec-2014 01:23:20 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/croston/public_html/scripts/html_header.php:22) in /home3/croston/public_html/forum.php on line 23
+[21-Dec-2014 01:23:20 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 188
+[21-Dec-2014 01:23:26 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/croston/public_html/scripts/html_header.php:22) in /home3/croston/public_html/forum.php on line 23
+[21-Dec-2014 01:23:26 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 188
+[21-Dec-2014 01:31:46 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/croston/public_html/scripts/html_header.php:22) in /home3/croston/public_html/forum.php on line 23
+[21-Dec-2014 01:31:46 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 188
+[21-Dec-2014 01:32:08 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 188
+[21-Dec-2014 01:32:08 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 188
+[21-Dec-2014 01:32:49 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 188
+[21-Dec-2014 01:32:54 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/croston/public_html/post_topic.php:27) in /home3/croston/public_html/post_topic.php on line 28
+[21-Dec-2014 01:33:22 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 188
+[21-Dec-2014 01:33:27 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 188
+[21-Dec-2014 01:33:32 America/Chicago] PHP Parse error:  syntax error, unexpected ''Location:forum.php);' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home3/croston/public_html/post_topic.php on line 27
+[21-Dec-2014 01:34:00 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 188
+[21-Dec-2014 01:34:00 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 188
+[21-Dec-2014 01:34:06 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 188
+[21-Dec-2014 01:34:10 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 188
+[21-Dec-2014 01:34:11 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 188
+[21-Dec-2014 01:34:13 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 188
+[21-Dec-2014 01:34:19 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 188
+[21-Dec-2014 01:34:26 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 188
+[21-Dec-2014 01:38:30 America/Chicago] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home3/croston/public_html/post_topic.php on line 27
+[21-Dec-2014 01:38:41 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 188
+[21-Dec-2014 01:38:43 America/Chicago] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home3/croston/public_html/post_topic.php on line 20
+[21-Dec-2014 01:39:01 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 188
+[21-Dec-2014 01:49:45 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 188
+[21-Dec-2014 01:50:53 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 188
+[21-Dec-2014 01:51:05 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/croston/public_html/post_topic.php:32) in /home3/croston/public_html/post_topic.php on line 39
+[21-Dec-2014 01:51:48 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/croston/public_html/post_topic.php:32) in /home3/croston/public_html/post_topic.php on line 39
+[21-Dec-2014 01:52:07 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 188
+[21-Dec-2014 01:52:12 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/croston/public_html/post_topic.php:32) in /home3/croston/public_html/post_topic.php on line 39
+[21-Dec-2014 01:52:32 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 188
+[21-Dec-2014 01:52:50 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 188
+[21-Dec-2014 01:52:57 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 188
+[21-Dec-2014 01:55:43 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 188
+[21-Dec-2014 01:55:50 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 188
+[21-Dec-2014 01:56:28 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 188
+[21-Dec-2014 01:56:38 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 188
+[21-Dec-2014 01:56:57 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 188
+[21-Dec-2014 01:56:58 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 188
+[21-Dec-2014 01:57:05 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 188
+[21-Dec-2014 01:58:06 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 188
+[21-Dec-2014 02:03:15 America/Chicago] PHP Fatal error:  Cannot redeclare sec_session_start() (previously declared in /home3/croston/public_html/scripts/session_start.php:13) in /home3/croston/public_html/scripts/session_start.php on line 33
+[21-Dec-2014 02:03:46 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 192
+[21-Dec-2014 02:03:52 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 192
+[21-Dec-2014 02:03:53 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 192
+[21-Dec-2014 02:03:58 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 192
+[21-Dec-2014 02:03:58 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 192
+[21-Dec-2014 02:04:43 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 192
+[21-Dec-2014 02:04:49 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 192
+[21-Dec-2014 02:04:50 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 192
+[21-Dec-2014 02:09:18 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 191
+[21-Dec-2014 02:09:24 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 191
+[21-Dec-2014 02:09:24 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 191
+[21-Dec-2014 02:09:29 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 191
+[21-Dec-2014 02:09:29 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 191
+[21-Dec-2014 02:10:10 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 191
+[21-Dec-2014 02:10:20 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 191
+[21-Dec-2014 02:10:20 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 191
+[21-Dec-2014 02:10:22 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 191
+[21-Dec-2014 02:10:23 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 191
+[21-Dec-2014 02:12:06 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 191
+[21-Dec-2014 02:12:10 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 191
+[21-Dec-2014 02:12:48 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 191
+[21-Dec-2014 02:12:51 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 191
+[21-Dec-2014 02:12:53 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 191
+[21-Dec-2014 02:12:55 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 191
+[21-Dec-2014 02:12:58 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 191
+[21-Dec-2014 02:12:59 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 191
+[21-Dec-2014 02:13:01 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 191
+[21-Dec-2014 02:16:52 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 115
+[21-Dec-2014 02:16:54 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 115
+[21-Dec-2014 02:16:56 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 115
+[21-Dec-2014 02:20:54 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 115
+[21-Dec-2014 02:21:03 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 115
+[21-Dec-2014 02:21:04 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 115
+[21-Dec-2014 02:21:08 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 115
+[21-Dec-2014 02:21:08 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 115
+[21-Dec-2014 02:24:23 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 115
+[21-Dec-2014 02:24:24 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 115
+[21-Dec-2014 02:24:26 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 115
+[21-Dec-2014 02:24:28 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 115
+[21-Dec-2014 02:24:33 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 115
+[21-Dec-2014 02:24:34 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 115
+[21-Dec-2014 02:24:47 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 115
+[21-Dec-2014 02:24:48 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 115
+[21-Dec-2014 02:24:49 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 115
+[21-Dec-2014 02:30:41 America/Chicago] PHP Parse error:  syntax error, unexpected 'new_topic_btn' (T_STRING), expecting ',' or ';' in /home3/croston/public_html/forum.php on line 45
+[21-Dec-2014 02:33:13 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 02:33:45 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 02:34:48 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 02:35:15 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 02:35:21 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 02:35:21 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 02:36:05 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 02:36:07 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 02:36:17 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 02:36:21 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 02:55:47 America/Chicago] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home3/croston/public_html/scripts/forum_script.php on line 110
+[21-Dec-2014 02:56:54 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 02:56:54 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 02:56:56 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 02:56:57 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 02:57:03 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 02:57:03 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 03:07:21 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 03:07:23 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 03:07:25 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 03:07:26 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 03:07:28 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 03:07:48 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 03:07:48 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 03:07:50 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 03:08:09 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 03:08:39 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 03:08:57 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 03:08:57 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 03:08:59 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 03:09:00 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 03:11:36 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 03:11:38 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 03:12:08 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 03:12:08 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 03:12:10 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 03:12:43 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 03:12:52 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 03:12:53 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 03:13:00 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 03:13:02 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 03:14:08 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 03:14:08 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 03:14:29 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 03:14:31 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 03:14:33 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 03:14:44 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 128
+[21-Dec-2014 03:27:40 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home3/croston/public_html/scripts/forum_script.php on line 99
+[21-Dec-2014 03:28:43 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home3/croston/public_html/scripts/forum_script.php on line 98
+[21-Dec-2014 03:28:46 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home3/croston/public_html/scripts/forum_script.php on line 98
+[21-Dec-2014 03:29:21 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home3/croston/public_html/scripts/forum_script.php on line 98
+[21-Dec-2014 03:30:56 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home3/croston/public_html/scripts/forum_script.php on line 98
+[21-Dec-2014 03:31:19 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home3/croston/public_html/scripts/forum_script.php on line 99
+[21-Dec-2014 03:32:52 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home3/croston/public_html/scripts/forum_script.php on line 98
+[21-Dec-2014 03:34:14 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home3/croston/public_html/scripts/forum_script.php on line 98
+[21-Dec-2014 03:34:56 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home3/croston/public_html/scripts/forum_script.php on line 98
+[21-Dec-2014 03:36:19 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home3/croston/public_html/scripts/forum_script.php on line 98
+[21-Dec-2014 03:40:34 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 03:41:47 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 03:43:58 America/Chicago] PHP Parse error:  syntax error, unexpected '$delete' (T_VARIABLE), expecting ',' or ';' in /home3/croston/public_html/scripts/forum_script.php on line 99
+[21-Dec-2014 03:44:30 America/Chicago] PHP Parse error:  syntax error, unexpected ''</li>'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home3/croston/public_html/scripts/forum_script.php on line 101
+[21-Dec-2014 03:45:53 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 03:47:37 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 03:50:22 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 03:50:30 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 03:50:38 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 03:50:40 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 03:50:41 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 03:50:42 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 03:51:08 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 03:51:16 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 03:51:49 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 03:51:50 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 03:51:52 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 03:54:53 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 03:54:53 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 03:55:03 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 03:55:23 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 03:56:17 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 03:56:41 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 04:03:53 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 04:03:54 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 04:04:12 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 04:04:15 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 04:04:17 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 04:04:34 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 04:09:03 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 04:09:06 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 04:09:31 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 04:09:33 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 04:09:35 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 12:51:42 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 12:51:51 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 12:52:17 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 12:52:18 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 12:58:30 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 12:58:56 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 12:58:59 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 12:59:19 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home3/croston/public_html/forum.php on line 124
+[21-Dec-2014 13:42:09 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home3/croston/public_html/forum.php on line 14
+[21-Dec-2014 13:42:28 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home3/croston/public_html/forum.php on line 14
+[21-Dec-2014 13:42:38 America/Chicago] PHP Fatal error:  Call to undefined method mysqli::fetch_array() in /home3/croston/public_html/scripts/forum_script.php on line 159
+[21-Dec-2014 13:47:32 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home3/croston/public_html/scripts/forum_script.php on line 169
+[21-Dec-2014 13:48:03 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home3/croston/public_html/scripts/forum_script.php on line 169
+[21-Dec-2014 13:48:34 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home3/croston/public_html/scripts/forum_script.php on line 169
+[21-Dec-2014 13:48:37 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home3/croston/public_html/scripts/forum_script.php on line 169
+[21-Dec-2014 13:48:39 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home3/croston/public_html/scripts/forum_script.php on line 169
+[21-Dec-2014 13:48:40 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home3/croston/public_html/scripts/forum_script.php on line 169
+[21-Dec-2014 14:04:01 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home3/croston/public_html/scripts/header.php on line 31
+[21-Dec-2014 14:04:12 America/Chicago] PHP Fatal error:  Call to undefined function login_check() in /home3/croston/public_html/forum.php on line 6
+[22-Dec-2014 12:46:13 America/Los_Angeles] PHP Fatal error:  Call to undefined function print_topics() in /home3/croston/public_html/forum.php on line 114
+[22-Dec-2014 12:51:24 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ')' in /home3/croston/public_html/scripts/forum_script.php on line 62
+[22-Dec-2014 13:20:05 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '/' in /home3/croston/public_html/scripts/forum_script.php on line 140
+[25-Dec-2014 07:37:09 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home3/croston/public_html/scripts/forum_script.php on line 86
+[25-Dec-2014 07:37:31 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home3/croston/public_html/scripts/forum_script.php on line 86
+[25-Dec-2014 07:54:13 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '!', expecting '(' in /home3/croston/public_html/scripts/forum_script.php on line 72
+[25-Dec-2014 07:54:25 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '!', expecting '(' in /home3/croston/public_html/scripts/forum_script.php on line 72
+[25-Dec-2014 07:54:45 America/Los_Angeles] PHP Warning:  substr() expects at least 2 parameters, 1 given in /home3/croston/public_html/scripts/forum_script.php on line 66
+[25-Dec-2014 07:56:58 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ',', expecting ')' in /home3/croston/public_html/scripts/forum_script.php on line 66
+[26-Dec-2014 18:05:03 America/Los_Angeles] PHP Warning:  require(scripst/html_footer.php): failed to open stream: No such file or directory in /home3/croston/public_html/forum_sam.php on line 7
+[26-Dec-2014 18:05:03 America/Los_Angeles] PHP Warning:  require(scripst/html_footer.php): failed to open stream: No such file or directory in /home3/croston/public_html/forum_sam.php on line 7
+[26-Dec-2014 18:05:03 America/Los_Angeles] PHP Fatal error:  require(): Failed opening required 'scripst/html_footer.php' (include_path='.:/opt/php54/lib/php') in /home3/croston/public_html/forum_sam.php on line 7
+[26-Dec-2014 21:54:20 America/Chicago] PHP Parse error:  syntax error, unexpected '$topic_id_list' (T_VARIABLE) in /home3/croston/public_html/forum_sam.php on line 39
+[26-Dec-2014 20:57:24 America/Los_Angeles] PHP Fatal error:  Call to undefined method mysqli_result::num_rows() in /home3/croston/public_html/forum_sam.php on line 50
+[26-Dec-2014 23:14:32 America/Chicago] PHP Parse error:  syntax error, unexpected '(', expecting ')' in /home3/croston/public_html/scripts/pagiation.php on line 14
+[26-Dec-2014 23:16:14 America/Chicago] PHP Parse error:  syntax error, unexpected '$_GET' (T_VARIABLE) in /home3/croston/public_html/scripts/pagiation.php on line 14
+[26-Dec-2014 21:17:09 America/Los_Angeles] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home3/croston/public_html/forum_sam.php on line 42
+[26-Dec-2014 21:17:14 America/Los_Angeles] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home3/croston/public_html/forum_sam.php on line 42
+[26-Dec-2014 21:17:19 America/Los_Angeles] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home3/croston/public_html/forum_sam.php on line 42
+[26-Dec-2014 21:28:02 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '' id="older_btn" class="older"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home3/croston/public_html/scripts/forum_script.php on line 65
+[26-Dec-2014 22:06:39 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '<' in /home3/croston/public_html/scripts/forum_script.php on line 67
+[28-Dec-2014 20:12:22 America/Los_Angeles] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home3/croston/public_html/forum_sam.php on line 67
+[28-Dec-2014 20:12:29 America/Los_Angeles] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home3/croston/public_html/forum_sam.php on line 67
+[28-Dec-2014 20:13:39 America/Los_Angeles] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home3/croston/public_html/forum_sam.php on line 67
+[28-Dec-2014 20:16:38 America/Los_Angeles] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home3/croston/public_html/forum_sam.php on line 67
+[28-Dec-2014 20:52:33 America/Los_Angeles] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home3/croston/public_html/forum_sam.php on line 82
+[28-Dec-2014 20:53:34 America/Los_Angeles] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home3/croston/public_html/forum_sam.php on line 82
+[28-Dec-2014 20:53:34 America/Los_Angeles] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home3/croston/public_html/forum_sam.php on line 82
+[28-Dec-2014 20:55:46 America/Los_Angeles] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home3/croston/public_html/forum_sam.php on line 82
+[28-Dec-2014 20:55:52 America/Los_Angeles] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home3/croston/public_html/forum_sam.php on line 82
+[28-Dec-2014 23:00:37 America/Chicago] PHP Parse error:  syntax error, unexpected ']' in /home3/croston/public_html/forum_sam.php on line 165
+[28-Dec-2014 23:01:11 America/Chicago] PHP Parse error:  syntax error, unexpected ']' in /home3/croston/public_html/forum_sam.php on line 165
+[28-Dec-2014 21:01:15 America/Los_Angeles] PHP Fatal error:  Call to a member function query() on a non-object in /home3/croston/public_html/scripts/userdata.php on line 27
+[28-Dec-2014 21:01:30 America/Los_Angeles] PHP Fatal error:  Call to a member function query() on a non-object in /home3/croston/public_html/scripts/userdata.php on line 27
+[28-Dec-2014 21:01:36 America/Los_Angeles] PHP Fatal error:  Call to a member function query() on a non-object in /home3/croston/public_html/scripts/userdata.php on line 27
+[28-Dec-2014 21:03:21 America/Los_Angeles] PHP Fatal error:  Call to a member function query() on a non-object in /home3/croston/public_html/scripts/userdata.php on line 27
+[29-Dec-2014 23:28:09 America/Los_Angeles] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home3/croston/public_html/forum_sam.php on line 82
+[29-Dec-2014 23:28:40 America/Los_Angeles] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home3/croston/public_html/forum_sam.php on line 82
+[30-Dec-2014 02:22:21 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home3/croston/public_html/forum.php on line 114
+[30-Dec-2014 00:43:20 America/Los_Angeles] PHP Parse error:  syntax error, unexpected 'LIMIT' (T_STRING) in /home3/croston/public_html/scripts/forum_script.php on line 115
+[30-Dec-2014 00:51:28 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '$topic_result' (T_VARIABLE), expecting ',' or ';' in /home3/croston/public_html/scripts/forum_script.php on line 64
+[30-Dec-2014 01:20:51 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '<' in /home3/croston/public_html/scripts/forum_script.php on line 102
+[30-Dec-2014 01:22:18 America/Los_Angeles] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home3/croston/public_html/scripts/forum_script.php on line 105
+[30-Dec-2014 21:39:21 America/Los_Angeles] PHP Warning:  Division by zero in /home3/croston/public_html/forum.php on line 33
+[30-Dec-2014 21:39:44 America/Los_Angeles] PHP Warning:  Division by zero in /home3/croston/public_html/forum.php on line 33
+[30-Dec-2014 21:39:46 America/Los_Angeles] PHP Warning:  Division by zero in /home3/croston/public_html/forum.php on line 33
+[30-Dec-2014 21:39:46 America/Los_Angeles] PHP Warning:  Division by zero in /home3/croston/public_html/forum.php on line 33
+[30-Dec-2014 21:39:48 America/Los_Angeles] PHP Warning:  Division by zero in /home3/croston/public_html/forum.php on line 33
+[30-Dec-2014 21:39:49 America/Los_Angeles] PHP Warning:  Division by zero in /home3/croston/public_html/forum.php on line 33
+[30-Dec-2014 21:40:03 America/Los_Angeles] PHP Warning:  Division by zero in /home3/croston/public_html/forum.php on line 33
+[30-Dec-2014 21:40:04 America/Los_Angeles] PHP Warning:  Division by zero in /home3/croston/public_html/forum.php on line 33
+[30-Dec-2014 21:40:06 America/Los_Angeles] PHP Warning:  Division by zero in /home3/croston/public_html/forum.php on line 33
+[31-Dec-2014 09:44:29 America/Los_Angeles] PHP Warning:  Division by zero in /home3/croston/public_html/forum.php on line 33
+[31-Dec-2014 09:44:31 America/Los_Angeles] PHP Warning:  Division by zero in /home3/croston/public_html/forum.php on line 33
+[31-Dec-2014 09:44:32 America/Los_Angeles] PHP Warning:  Division by zero in /home3/croston/public_html/forum.php on line 33
+[31-Dec-2014 09:44:33 America/Los_Angeles] PHP Warning:  Division by zero in /home3/croston/public_html/forum.php on line 33
+[31-Dec-2014 09:44:34 America/Los_Angeles] PHP Warning:  Division by zero in /home3/croston/public_html/forum.php on line 33
+[31-Dec-2014 09:44:35 America/Los_Angeles] PHP Warning:  Division by zero in /home3/croston/public_html/forum.php on line 33
+[31-Dec-2014 09:44:39 America/Los_Angeles] PHP Warning:  Division by zero in /home3/croston/public_html/forum.php on line 33
+[31-Dec-2014 09:44:39 America/Los_Angeles] PHP Warning:  Division by zero in /home3/croston/public_html/forum.php on line 33
+[31-Dec-2014 09:44:40 America/Los_Angeles] PHP Warning:  Division by zero in /home3/croston/public_html/forum.php on line 33
+[31-Dec-2014 09:44:41 America/Los_Angeles] PHP Warning:  Division by zero in /home3/croston/public_html/forum.php on line 33
+[31-Dec-2014 09:44:43 America/Los_Angeles] PHP Warning:  Division by zero in /home3/croston/public_html/forum.php on line 33
+[31-Dec-2014 09:46:17 America/Los_Angeles] PHP Warning:  Division by zero in /home3/croston/public_html/forum.php on line 33
+[31-Dec-2014 09:57:57 America/Los_Angeles] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home3/croston/public_html/scripts/forum_script.php on line 49
+[31-Dec-2014 10:07:14 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '}' in /home3/croston/public_html/scripts/forum_script.php on line 222
+[31-Dec-2014 10:07:39 America/Los_Angeles] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home3/croston/public_html/scripts/forum_script.php on line 120
+[31-Dec-2014 10:07:40 America/Los_Angeles] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home3/croston/public_html/scripts/forum_script.php on line 120
+[31-Dec-2014 10:07:42 America/Los_Angeles] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home3/croston/public_html/scripts/forum_script.php on line 120
+[31-Dec-2014 21:05:50 America/Los_Angeles] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home3/croston/public_html/forum_sam.php on line 82
+[01-Jan-2015 20:59:19 America/Los_Angeles] PHP Fatal error:  Call to undefined function print_topics() in /home3/croston/public_html/forum.php on line 121
+[02-Jan-2015 23:00:28 America/Los_Angeles] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home3/croston/public_html/forum_sam.php on line 82
+[03-Jan-2015 03:24:03 America/Chicago] PHP Warning:  Missing argument 1 for login_check(), called in /home3/croston/public_html/scripts/embedded_login.php on line 29 and defined in /home3/croston/public_html/scripts/login_check.php on line 41
+[03-Jan-2015 03:24:03 America/Chicago] PHP Fatal error:  Call to a member function prepare() on a non-object in /home3/croston/public_html/scripts/login_check.php on line 56
+[03-Jan-2015 18:04:06 America/Chicago] PHP Fatal error:  Call to undefined function logincheck() in /home3/croston/public_html/scripts/login_check.php on line 98
+[03-Jan-2015 18:13:14 America/Los_Angeles] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home3/croston/public_html/scripts/footer.php on line 2
+[03-Jan-2015 19:57:32 America/Los_Angeles] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home3/croston/public_html/scripts/footer.php on line 2
+[03-Jan-2015 19:59:58 America/Los_Angeles] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home3/croston/public_html/scripts/footer.php on line 2
+[03-Jan-2015 20:00:53 America/Los_Angeles] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home3/croston/public_html/scripts/footer.php on line 2
+[03-Jan-2015 20:30:17 America/Los_Angeles] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home3/croston/public_html/scripts/footer.php on line 2
+[03-Jan-2015 20:41:51 America/Los_Angeles] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home3/croston/public_html/scripts/footer.php on line 2
+[03-Jan-2015 20:45:35 America/Los_Angeles] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home3/croston/public_html/scripts/footer.php on line 2
+[03-Jan-2015 20:48:16 America/Los_Angeles] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home3/croston/public_html/scripts/footer.php on line 2
+[03-Jan-2015 20:48:24 America/Los_Angeles] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home3/croston/public_html/scripts/footer.php on line 2
+[03-Jan-2015 20:48:36 America/Los_Angeles] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home3/croston/public_html/scripts/footer.php on line 2
+[03-Jan-2015 20:49:17 America/Los_Angeles] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home3/croston/public_html/scripts/footer.php on line 2
+[03-Jan-2015 20:49:32 America/Los_Angeles] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home3/croston/public_html/scripts/footer.php on line 2
+[03-Jan-2015 20:51:00 America/Los_Angeles] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home3/croston/public_html/scripts/footer.php on line 2
+[03-Jan-2015 20:51:04 America/Los_Angeles] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home3/croston/public_html/scripts/footer.php on line 2
+[03-Jan-2015 21:02:31 America/Los_Angeles] PHP Fatal error:  Call to undefined function print_topics() in /home3/croston/public_html/forum.php on line 106
+[03-Jan-2015 21:38:41 America/Los_Angeles] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home3/croston/public_html/scripts/footer.php on line 2
+[04-Jan-2015 06:09:33 America/Los_Angeles] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home3/croston/public_html/scripts/footer.php on line 2
+[04-Jan-2015 12:53:56 America/Los_Angeles] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home3/croston/public_html/scripts/footer.php on line 2
+[04-Jan-2015 13:30:32 America/Los_Angeles] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home3/croston/public_html/scripts/footer.php on line 2
+[04-Jan-2015 13:39:55 America/Los_Angeles] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home3/croston/public_html/scripts/footer.php on line 2
+[04-Jan-2015 13:40:02 America/Los_Angeles] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home3/croston/public_html/scripts/footer.php on line 2
+[04-Jan-2015 13:57:12 America/Los_Angeles] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home3/croston/public_html/scripts/footer.php on line 2
+[04-Jan-2015 14:11:00 America/Los_Angeles] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home3/croston/public_html/scripts/footer.php on line 2
+[04-Jan-2015 14:12:48 America/Los_Angeles] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home3/croston/public_html/scripts/footer.php on line 2
+[04-Jan-2015 14:12:53 America/Los_Angeles] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home3/croston/public_html/scripts/footer.php on line 2
+[04-Jan-2015 14:12:58 America/Los_Angeles] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home3/croston/public_html/scripts/footer.php on line 2
+[04-Jan-2015 14:13:07 America/Los_Angeles] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home3/croston/public_html/scripts/footer.php on line 2
+[04-Jan-2015 14:38:56 America/Los_Angeles] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home3/croston/public_html/scripts/footer.php on line 2
+[04-Jan-2015 17:14:32 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home3/croston/public_html/topic.php on line 103
+[04-Jan-2015 15:30:50 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ')' in /home3/croston/public_html/scripts/forum_script.php on line 36
+[04-Jan-2015 17:42:54 America/Chicago] PHP Parse error:  syntax error, unexpected 'ORDER' (T_STRING) in /home3/croston/public_html/topic.php on line 154
+[04-Jan-2015 16:21:33 America/Los_Angeles] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home3/croston/public_html/forum.php on line 33
+[04-Jan-2015 16:21:55 America/Los_Angeles] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home3/croston/public_html/forum.php on line 33
+[04-Jan-2015 16:21:57 America/Los_Angeles] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home3/croston/public_html/forum.php on line 33
+[04-Jan-2015 16:26:23 America/Los_Angeles] PHP Parse error:  syntax error, unexpected end of file, expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home3/croston/public_html/scripts/forum_script.php on line 192
+[04-Jan-2015 16:29:27 America/Los_Angeles] PHP Fatal error:  Call to undefined function print_topics() in /home3/croston/public_html/forum.php on line 104
+[04-Jan-2015 16:31:08 America/Los_Angeles] PHP Fatal error:  Call to undefined function print_topics() in /home3/croston/public_html/forum.php on line 104
+[10-Jan-2015 17:21:15 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home3/croston/public_html/forum.php on line 29
+[10-Jan-2015 17:22:27 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home3/croston/public_html/forum.php on line 29
+[10-Jan-2015 17:23:36 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home3/croston/public_html/forum.php on line 29
+[10-Jan-2015 17:23:44 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home3/croston/public_html/forum.php on line 29
+[10-Jan-2015 17:24:05 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home3/croston/public_html/forum.php on line 29
+[10-Jan-2015 17:24:16 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home3/croston/public_html/forum.php on line 30
+[10-Jan-2015 17:24:17 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home3/croston/public_html/forum.php on line 30
+[10-Jan-2015 17:24:18 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home3/croston/public_html/forum.php on line 30
+[10-Jan-2015 17:24:19 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home3/croston/public_html/forum.php on line 30
+[10-Jan-2015 17:24:22 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home3/croston/public_html/forum.php on line 30
+[10-Jan-2015 17:24:37 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home3/croston/public_html/forum.php on line 30
+[10-Jan-2015 17:24:37 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home3/croston/public_html/forum.php on line 30
+[10-Jan-2015 17:24:38 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home3/croston/public_html/forum.php on line 30
+[10-Jan-2015 17:24:38 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home3/croston/public_html/forum.php on line 30
+[10-Jan-2015 17:24:39 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home3/croston/public_html/forum.php on line 30
+[10-Jan-2015 17:24:40 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home3/croston/public_html/forum.php on line 30
+[10-Jan-2015 17:24:40 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home3/croston/public_html/forum.php on line 30
+[10-Jan-2015 17:24:41 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home3/croston/public_html/forum.php on line 30
+[10-Jan-2015 17:24:42 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home3/croston/public_html/forum.php on line 30
+[11-Jan-2015 14:18:25 America/Los_Angeles] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/croston/public_html/topic.php:15) in /home3/croston/public_html/topic.php on line 50
+[11-Jan-2015 14:19:28 America/Los_Angeles] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/croston/public_html/topic.php:15) in /home3/croston/public_html/topic.php on line 50
+[11-Jan-2015 14:20:26 America/Los_Angeles] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/croston/public_html/topic.php:15) in /home3/croston/public_html/topic.php on line 50
+[11-Jan-2015 14:20:31 America/Los_Angeles] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/croston/public_html/topic.php:15) in /home3/croston/public_html/topic.php on line 50
+[11-Jan-2015 16:20:55 America/Chicago] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /home3/croston/public_html/topic.php on line 12
+[14-Jan-2015 19:23:07 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home3/croston/public_html/topic.php on line 240
+[14-Jan-2015 19:23:16 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home3/croston/public_html/topic.php on line 240
+[14-Jan-2015 17:23:18 America/Los_Angeles] PHP Fatal error:  Call to undefined function br2nl() in /home3/croston/public_html/topic.php on line 240
+[14-Jan-2015 17:23:21 America/Los_Angeles] PHP Fatal error:  Call to undefined function br2nl() in /home3/croston/public_html/topic.php on line 240
+[14-Jan-2015 17:23:22 America/Los_Angeles] PHP Fatal error:  Call to undefined function br2nl() in /home3/croston/public_html/topic.php on line 240
+[14-Jan-2015 17:23:23 America/Los_Angeles] PHP Fatal error:  Call to undefined function br2nl() in /home3/croston/public_html/topic.php on line 240
+[14-Jan-2015 17:23:33 America/Los_Angeles] PHP Fatal error:  Call to undefined function br2nl() in /home3/croston/public_html/topic.php on line 240
+[14-Jan-2015 17:23:35 America/Los_Angeles] PHP Fatal error:  Call to undefined function br2nl() in /home3/croston/public_html/topic.php on line 240
+[14-Jan-2015 17:24:39 America/Los_Angeles] PHP Fatal error:  Call to undefined function br2nl() in /home3/croston/public_html/topic.php on line 240
+[14-Jan-2015 17:24:50 America/Los_Angeles] PHP Fatal error:  Call to undefined function br2nl() in /home3/croston/public_html/topic.php on line 240
+[25-Jan-2015 01:15:15 America/Chicago] PHP Parse error:  syntax error, unexpected '$update_query' (T_VARIABLE) in /home3/croston/public_html/topic.php on line 56
+[24-Jan-2015 23:21:53 America/Los_Angeles] PHP Fatal error:  Call to undefined function diff() in /home3/croston/public_html/scripts/forum_script.php on line 156
+[24-Jan-2015 23:24:59 America/Los_Angeles] PHP Fatal error:  Call to undefined function diff() in /home3/croston/public_html/scripts/forum_script.php on line 156
+[24-Jan-2015 23:25:12 America/Los_Angeles] PHP Fatal error:  Call to undefined function diff() in /home3/croston/public_html/scripts/forum_script.php on line 156
+[24-Jan-2015 23:25:12 America/Los_Angeles] PHP Fatal error:  Call to undefined function diff() in /home3/croston/public_html/scripts/forum_script.php on line 156
+[24-Jan-2015 23:25:29 America/Los_Angeles] PHP Warning:  DateTime::diff() expects parameter 1 to be DateTime, null given in /home3/croston/public_html/scripts/forum_script.php on line 156
+[24-Jan-2015 23:25:29 America/Los_Angeles] PHP Warning:  DateTime::diff() expects parameter 1 to be DateTime, null given in /home3/croston/public_html/scripts/forum_script.php on line 157
+[24-Jan-2015 23:25:29 America/Los_Angeles] PHP Fatal error:  Call to a member function format() on a non-object in /home3/croston/public_html/scripts/forum_script.php on line 158
+[25-Jan-2015 02:23:32 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home3/croston/public_html/topic.php on line 252
+[26-Jan-2015 12:11:39 America/Los_Angeles] PHP Fatal error:  Cannot redeclare sec_session_start() (previously declared in /home3/croston/public_html/scripts/session_start.php:13) in /home3/croston/public_html/scripts/session_start.php on line 33
+[26-Jan-2015 12:12:02 America/Los_Angeles] PHP Fatal error:  Call to undefined function getlink() in /home3/croston/public_html/scripts/embedded_login.php on line 25
+[26-Jan-2015 12:12:36 America/Los_Angeles] PHP Fatal error:  Call to undefined function strint() in /home3/croston/public_html/scripts/getlink.php on line 81
+[26-Jan-2015 12:20:31 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) or '$' in /home3/croston/public_html/scripts/embedded_login.php on line 27
+[26-Jan-2015 12:21:15 America/Los_Angeles] PHP Fatal error:  Cannot redeclare strint() (previously declared in /home3/croston/public_html/scripts/strint.php:39) in /home3/croston/public_html/scripts/strint.php on line 52
+[26-Jan-2015 12:21:16 America/Los_Angeles] PHP Fatal error:  Cannot redeclare strint() (previously declared in /home3/croston/public_html/scripts/strint.php:39) in /home3/croston/public_html/scripts/strint.php on line 52
+[26-Jan-2015 12:22:31 America/Los_Angeles] PHP Fatal error:  Cannot redeclare strint() (previously declared in /home3/croston/public_html/scripts/strint.php:39) in /home3/croston/public_html/scripts/strint.php on line 52
+[26-Jan-2015 12:22:31 America/Los_Angeles] PHP Fatal error:  Cannot redeclare strint() (previously declared in /home3/croston/public_html/scripts/strint.php:39) in /home3/croston/public_html/scripts/strint.php on line 52
+[26-Jan-2015 12:23:03 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ''Location: http://www.stoneraz' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home3/croston/public_html/scripts/embedded_login.php on line 27
+[26-Jan-2015 12:23:25 America/Los_Angeles] PHP Fatal error:  Cannot redeclare strint() (previously declared in /home3/croston/public_html/scripts/strint.php:39) in /home3/croston/public_html/scripts/strint.php on line 52
+[26-Jan-2015 12:23:32 America/Los_Angeles] PHP Fatal error:  Cannot redeclare strint() (previously declared in /home3/croston/public_html/scripts/strint.php:39) in /home3/croston/public_html/scripts/strint.php on line 52
+[26-Jan-2015 12:28:44 America/Los_Angeles] PHP Fatal error:  Cannot redeclare strint() (previously declared in /home3/croston/public_html/scripts/strint.php:39) in /home3/croston/public_html/scripts/strint.php on line 52
+[26-Jan-2015 12:29:04 America/Los_Angeles] PHP Fatal error:  Cannot redeclare strint() (previously declared in /home3/croston/public_html/scripts/strint.php:39) in /home3/croston/public_html/scripts/strint.php on line 52
+[26-Jan-2015 12:30:01 America/Los_Angeles] PHP Fatal error:  Cannot redeclare strint() (previously declared in /home3/croston/public_html/scripts/strint.php:39) in /home3/croston/public_html/scripts/strint.php on line 52
+[26-Jan-2015 12:30:12 America/Los_Angeles] PHP Fatal error:  Cannot redeclare strint() (previously declared in /home3/croston/public_html/scripts/strint.php:39) in /home3/croston/public_html/scripts/strint.php on line 52
+[26-Jan-2015 12:30:39 America/Los_Angeles] PHP Fatal error:  Cannot redeclare strint() (previously declared in /home3/croston/public_html/scripts/strint.php:39) in /home3/croston/public_html/scripts/strint.php on line 52
+[26-Jan-2015 12:30:52 America/Los_Angeles] PHP Fatal error:  Cannot redeclare strint() (previously declared in /home3/croston/public_html/scripts/strint.php:39) in /home3/croston/public_html/scripts/strint.php on line 52
+[08-Feb-2015 21:48:27 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home3/croston/public_html/topic.php on line 257
+[08-Feb-2015 21:53:10 America/Chicago] PHP Parse error:  syntax error, unexpected '.' in /home3/croston/public_html/topic.php on line 257
+[13-Feb-2015 12:33:43 America/Los_Angeles] PHP Fatal error:  Cannot redeclare getlink() (previously declared in /home3/croston/public_html/scripts/getlink.php:21) in /home3/croston/public_html/scripts/getlink.php on line 108
+[13-Feb-2015 12:35:32 America/Los_Angeles] PHP Fatal error:  Cannot redeclare getlink() (previously declared in /home3/croston/public_html/scripts/getlink.php:21) in /home3/croston/public_html/scripts/getlink.php on line 108
+[13-Feb-2015 12:36:54 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ';' in /home3/croston/public_html/scripts/embedded_login.php on line 25
+[13-Feb-2015 12:37:04 America/Los_Angeles] PHP Fatal error:  Call to undefined function getlink() in /home3/croston/public_html/scripts/embedded_login.php on line 25
+[13-Feb-2015 12:37:30 America/Los_Angeles] PHP Fatal error:  Call to undefined function strint() in /home3/croston/public_html/scripts/getlink.php on line 81
+[13-Feb-2015 12:39:41 America/Los_Angeles] PHP Fatal error:  Call to undefined function getlink() in /home3/croston/public_html/scripts/embedded_login.php on line 27
+[13-Feb-2015 12:40:28 America/Los_Angeles] PHP Fatal error:  Call to undefined function getlink() in /home3/croston/public_html/scripts/embedded_login.php on line 27
+[13-Feb-2015 12:40:48 America/Los_Angeles] PHP Fatal error:  Cannot redeclare sec_session_start() (previously declared in /home3/croston/public_html/scripts/session_start.php:13) in /home3/croston/public_html/scripts/session_start.php on line 33
+[13-Feb-2015 12:54:44 America/Los_Angeles] PHP Fatal error:  Call to undefined function getlink() in /home3/croston/public_html/scripts/embedded_login.php on line 24
+[15-Feb-2015 00:24:01 America/Los_Angeles] PHP Fatal error:  Call to undefined function html_entities() in /home3/croston/public_html/scripts/forum_script.php on line 11
+[15-Feb-2015 16:14:29 America/Chicago] PHP Parse error:  syntax error, unexpected '$start' (T_VARIABLE) in /home3/croston/public_html/topic.php on line 225
+[15-Feb-2015 19:27:29 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting variable (T_VARIABLE) or '$' in /home3/croston/public_html/topic_john.php on line 279
+[15-Feb-2015 19:27:42 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting variable (T_VARIABLE) or '$' in /home3/croston/public_html/topic_john.php on line 279
+[15-Feb-2015 19:41:00 America/Chicago] PHP Parse error:  syntax error, unexpected '$post_query' (T_VARIABLE), expecting ',' or ';' in /home3/croston/public_html/topic_john.php on line 252
+[15-Feb-2015 19:41:01 America/Chicago] PHP Parse error:  syntax error, unexpected '$post_query' (T_VARIABLE), expecting ',' or ';' in /home3/croston/public_html/topic_john.php on line 252
+[15-Feb-2015 19:41:07 America/Chicago] PHP Parse error:  syntax error, unexpected '$post_query' (T_VARIABLE), expecting ',' or ';' in /home3/croston/public_html/topic_john.php on line 252
+[15-Feb-2015 20:19:25 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '"\" class=\"number"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home3/croston/public_html/scripts/pagiation.php on line 35
+[15-Feb-2015 20:19:44 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '"\" class=\"number"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home3/croston/public_html/scripts/pagiation.php on line 40
+[15-Feb-2015 23:28:28 America/Los_Angeles] PHP Warning:  require(reply_handler): failed to open stream: No such file or directory in /home3/croston/public_html/scripts/header.php on line 44
+[15-Feb-2015 23:28:28 America/Los_Angeles] PHP Warning:  require(reply_handler): failed to open stream: No such file or directory in /home3/croston/public_html/scripts/header.php on line 44
+[15-Feb-2015 23:28:28 America/Los_Angeles] PHP Fatal error:  require(): Failed opening required 'reply_handler' (include_path='.:/opt/php54/lib/php') in /home3/croston/public_html/scripts/header.php on line 44
+[15-Feb-2015 23:28:42 America/Los_Angeles] PHP Warning:  require(reply_handler): failed to open stream: No such file or directory in /home3/croston/public_html/scripts/header.php on line 44
+[15-Feb-2015 23:28:42 America/Los_Angeles] PHP Warning:  require(reply_handler): failed to open stream: No such file or directory in /home3/croston/public_html/scripts/header.php on line 44
+[15-Feb-2015 23:28:42 America/Los_Angeles] PHP Fatal error:  require(): Failed opening required 'reply_handler' (include_path='.:/opt/php54/lib/php') in /home3/croston/public_html/scripts/header.php on line 44
+[15-Feb-2015 23:28:44 America/Los_Angeles] PHP Warning:  require(reply_handler): failed to open stream: No such file or directory in /home3/croston/public_html/scripts/header.php on line 44
+[15-Feb-2015 23:28:44 America/Los_Angeles] PHP Warning:  require(reply_handler): failed to open stream: No such file or directory in /home3/croston/public_html/scripts/header.php on line 44
+[15-Feb-2015 23:28:44 America/Los_Angeles] PHP Fatal error:  require(): Failed opening required 'reply_handler' (include_path='.:/opt/php54/lib/php') in /home3/croston/public_html/scripts/header.php on line 44
+[16-Feb-2015 00:33:02 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '}' in /home3/croston/public_html/scripts/reply_handler.php on line 53

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Random Bullshit</title>
+<link rel="stylesheet" type="text/css" href="style/default.css">
+<link rel="stylesheet" type="text/css" href="style/forum.css">
+<script type="text/JavaScript" src="js/sha512.js"></script> 
+<script type="text/JavaScript" src="js/forms.js"></script> 
+<script type="text/JavaScript" src="js/alert.js"></script>
+<script type="text/javascript" language="javascript"><!--
+
+function titletext(text,num)
+	{
+	document.getElementById('titletext_' + num).innerHTML = text;
+	}
+
+//--></script>
+</head>
+<body>
+	<div id="alertframe">
+		<a href="javascript:alert_close();">&nbsp;</a>
+	</div>
+	<div id="loginbox">
+		<form action="process_login.php" method="post" name="login_form">
+			<p class="logintext">Login</p>                    
+			<p>Email: <input type="text" name="email"></p>
+			<p>Password: <input type="password" name="password" id="password"></p>
+			<p><input type="button" value="Login" onclick="formhash(this.form, this.form.password);"></p>
+		</form>
+	</div>
+	<div id="registerbox">
+		<form action="register.php" method="post" name="registration_form">
+			<p class="logintext">Register</p>
+			<p>Username: <input type="text" name="username" id="username"></p>
+			<p>Email: <input type="text" name="email" id="email"></p>
+			<p>Password: <input type="password" name="password" id="password"></p>
+			<p>Confirm: <input type="password" name="confirmpwd" id="confirmpwd"></p>
+			<p><input type="button" value="Register" onclick="return regformhash(this.form,this.form.username,this.form.email,this.form.password,this.form.confirmpwd);"></p> 
+		</form>
+	</div>
+	
+	
+	<div id="newtopicbox">
+	  <form action="forum.php?forum_id=1" method="post" name="newtopic_form">
+	    <p class="logintext">New Topic</p>
+			<p class="subject_p">Subject: <input type="text" name="topic_subject"></p>
+			<p class="topic_body_p">Body: <textarea cols="40" rows="5" name="topic_body"></textarea></p>
+			<p class="button_p"><input type="submit" name="topic_submit" value="Post" class="button"><input type="reset" onclick="alert_close();" name="Cancel" value="Cancel" class="button"></p>
+		</form>
+	</div>
+	
+	
+	<div id="header">
+		<ul id="header_right">
+			<li><a href="javascript:alert_open('loginbox');">Log In</a></li>
+			<li><a href="javascript:alert_open('registerbox');">Register</a></li>
+			<li class="icon32"><a href="settings.php">
+
+<svg
+version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"> <path
+d="M460.355,421.59L353.844,315.078c20.041-27.553,31.885-61.437,31.885-98.037
+C385.729,124.934,310.793,50,218.686,50C126.58,50,51.645,124.934,51.645,217.041c0,92.106,74.936,167.041,167.041,167.041
+c34.912,0,67.352-10.773,94.184-29.158L419.945,462L460.355,421.59z M100.631,217.041c0-65.096,52.959-118.056,118.055-118.056
+c65.098,0,118.057,52.959,118.057,118.056c0,65.096-52.959,118.056-118.057,118.056C153.59,335.097,100.631,282.137,100.631,217.041
+z"/> </svg>
+
+			</a></li>
+		</ul>
+		<a id="logo" href="index.php">Stone Razor</a>
+		<ul id="header_left">
+			<li><a href="index.php" class="selected">Forums</a>
+				<ul>
+					<li><a href="forum.php?forum_id=1"><span class="shortcut">Alt + 1</span>General Conversation</a></li>
+					<li><a href="forum.php?forum_id=2"><span class="shortcut">Alt + 2</span>Random Bullshit</a></li>
+				</ul>
+			</li>
+			<li class="newmsg"><a href="msg.php">Messages</a>
+				<ul>
+					<li class="unread"><a href="msg.php?msg_id=52">Unread message</a></li>
+					<li class="read"><a href="msg.php?msg_id=483">Read message</a></li>
+				</ul>
+			</li>
+			<li><a href="fr.php">Friends</a>
+				<ul>
+					<li>You have no friends.</li>
+				</ul>
+			</li>
+		</ul>&nbsp;
+	</div>
+ 
+	<div id="container">
+		<div class="titlebar">
+			<ul class="nav">
+				<li><a href="forum.php?forum_id=1">Random Bullshit</a></li>
+				<li><a href="index.php">Forums</a></li>
+			</ul>
+			<ul class="navicons">
+				<li><a href="javascript:alert_open('newtopicbox');" onmouseover="titletext('Create topic','1');" onmouseout="titletext('&nbsp;','1');">
+
+<svg
+version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"> <path
+d="M387.628,238.223L202.581,423.267L49.945,461.139L90.641,311.01l184.887-184.888l28.352,28.351
+L126.967,331.391l-10.901,45.092l20.288,20.287l46.166-10.148l176.755-176.752L387.628,238.223z M405.176,220.676l56.77-56.773
+L349.845,51.805l-56.77,56.771L405.176,220.676z M321.35,171.896L146.656,346.587l20.506,20.506l174.693-174.691L321.35,171.896z"/> </svg>
+
+				</a></li>
+				<li><a href="mark read link" onmouseover="titletext('Mark all topics read','1');" onmouseout="titletext('&nbsp;','1');">
+
+<svg
+version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"> <path
+d="M171.941,291.333l14.721-13.609c17.22,8.332,28.139,14.672,47.493,28.469
+c36.384-41.29,60.425-62.238,105.113-90.041l4.79,11.018c-36.853,32.161-63.843,67.982-102.708,137.68
+C217.38,336.616,201.381,318.621,171.941,291.333z M432.816,109.791V462H79.184V109.791h79.888l-40.317,39.904v271.732h273.49
+V149.695l-39.729-39.904H432.816z M308.232,108.902v-7.047c0-28.639-23.216-51.855-51.855-51.855
+c-28.639,0-51.854,23.217-51.854,51.855v7.047l-56.612,57.086h217.18L308.232,108.902z M256.753,118.166
+c-9.842,0-17.82-7.979-17.82-17.822c0-9.842,7.979-17.82,17.82-17.82c9.845,0,17.823,7.979,17.823,17.82
+C274.576,110.188,266.598,118.166,256.753,118.166z"/> </svg>
+
+				</a></li>
+				<li><a href="javascript:location.reload();" onmouseover="titletext('Refresh','1');" onmouseout="titletext('&nbsp;','1');">
+
+<svg
+version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"> <path
+d="M373.223,142.573l-37.252,37.253c-20.225-20.224-48.162-32.731-79.021-32.731
+c-61.719,0-111.752,50.056-111.752,111.776c0,0.016,0-0.016,0,0h43.412l-69.342,69.315L50,258.871h42.514c0-0.008,0,0.006,0,0
+c0-90.816,73.621-164.46,164.436-164.46C302.357,94.411,343.467,112.816,373.223,142.573z M462,253.129l-69.268-69.316
+l-69.342,69.316h43.412c0,0.016,0-0.017,0,0c0,61.72-50.033,111.776-111.752,111.776c-30.859,0-58.797-12.508-79.021-32.731
+l-37.252,37.253c29.758,29.757,70.867,48.162,116.273,48.162c90.814,0,164.436-73.644,164.436-164.459c0-0.007,0,0.008,0,0H462z"/> </svg>
+
+				</a></li>
+			</ul>
+			<span class="titletext" id="titletext_1">&nbsp;</span>
+		</div>
+		<div class="titlefade">&nbsp;</div>
+		<div class="pagiation">
+			<span class="newer">&larr; Newer Content</span>
+			<a class="older" href="older">Older Content &rarr;</a>
+			<div class="numbers">
+				<a class="number" href="1">1</a><a class="number selected" href="2">2</a><a class="number" href="3">3</a><a class="number" href="4">4</a>
+			</div>
+		</div>
+		<div id="topiclist">
+			<ul>
+				<li class="unread">
+					<ul>
+						<li class="title">92 replies</li>
+						<li class="reply">Last reply by <a href="user.php?user_id=5">Evan</a> on 23/43/69</li>
+						<li class="author">Posted by <a href="user.php?user_id=2">Cheesycarrion</a> on 39/32/91</li>
+					</ul><a href="topic.php?topic_id=42">Unread topic</a>
+				</li>
+				<li class="read">
+					<ul>
+						<li class="title">1 reply</li>
+						<li class="reply">Last reply by <a href="user.php?user_id=5">Evan</a> on 23/43/69</li>
+						<li class="author">Posted by <a href="user.php?user_id=2">Cheesycarrion</a> on 39/32/91</li>
+					</ul><a href="topic.php?topic_id=42">Read topic</a>
+				</li>
+				<li class="read">
+					<ul>
+						<li class="title">1 reply</li>
+						<li class="reply">Last reply by <a href="user.php?user_id=5">Evan</a> on 23/43/69</li>
+						<li class="author">Posted by <a href="user.php?user_id=2">Cheesycarrion</a> on 39/32/91</li>
+					</ul><a href="topic.php?topic_id=42">Read topic</a>
+				</li>
+				<li class="read">
+					<ul>
+						<li class="title">1 reply</li>
+						<li class="reply">Last reply by <a href="user.php?user_id=5">Evan</a> on 23/43/69</li>
+						<li class="author">Posted by <a href="user.php?user_id=2">Cheesycarrion</a> on 39/32/91</li>
+					</ul><a href="topic.php?topic_id=42">Read topic</a>
+				</li>
+				<li class="read">
+					<ul>
+						<li class="title">1 reply</li>
+						<li class="reply">Last reply by <a href="user.php?user_id=5">Evan</a> on 23/43/69</li>
+						<li class="author">Posted by <a href="user.php?user_id=2">Cheesycarrion</a> on 39/32/91</li>
+					</ul><a href="topic.php?topic_id=42">Read topic</a>
+				</li>
+				<li class="read">
+					<ul>
+						<li class="title">1 reply</li>
+						<li class="reply">Last reply by <a href="user.php?user_id=5">Evan</a> on 23/43/69</li>
+						<li class="author">Posted by <a href="user.php?user_id=2">Cheesycarrion</a> on 39/32/91</li>
+					</ul><a href="topic.php?topic_id=42">Read topic</a>
+				</li>
+				<li class="read">
+					<ul>
+						<li class="title">1 reply</li>
+						<li class="reply">Last reply by <a href="user.php?user_id=5">Evan</a> on 23/43/69</li>
+						<li class="author">Posted by <a href="user.php?user_id=2">Cheesycarrion</a> on 39/32/91</li>
+					</ul><a href="topic.php?topic_id=42">Read topic</a>
+				</li>
+				<li class="read">
+					<ul>
+						<li class="title">1 reply</li>
+						<li class="reply">Last reply by <a href="user.php?user_id=5">Evan</a> on 23/43/69</li>
+						<li class="author">Posted by <a href="user.php?user_id=2">Cheesycarrion</a> on 39/32/91</li>
+					</ul><a href="topic.php?topic_id=42">Read topic</a>
+				</li>
+				<li class="read">
+					<ul>
+						<li class="title">1 reply</li>
+						<li class="reply">Last reply by <a href="user.php?user_id=5">Evan</a> on 23/43/69</li>
+						<li class="author">Posted by <a href="user.php?user_id=2">Cheesycarrion</a> on 39/32/91</li>
+					</ul><a href="topic.php?topic_id=42">Read topic</a>
+				</li>
+				<li class="read">
+					<ul>
+						<li class="title">1 reply</li>
+						<li class="reply">Last reply by <a href="user.php?user_id=5">Evan</a> on 23/43/69</li>
+						<li class="author">Posted by <a href="user.php?user_id=2">Cheesycarrion</a> on 39/32/91</li>
+					</ul><a href="topic.php?topic_id=42">Read topic</a>
+				</li>
+				<li class="read">
+					<ul>
+						<li class="title">1 reply</li>
+						<li class="reply">Last reply by <a href="user.php?user_id=5">Evan</a> on 23/43/69</li>
+						<li class="author">Posted by <a href="user.php?user_id=2">Cheesycarrion</a> on 39/32/91</li>
+					</ul><a href="topic.php?topic_id=42">Read topic</a>
+				</li>
+				<li class="read">
+					<ul>
+						<li class="title">1 reply</li>
+						<li class="reply">Last reply by <a href="user.php?user_id=5">Evan</a> on 23/43/69</li>
+						<li class="author">Posted by <a href="user.php?user_id=2">Cheesycarrion</a> on 39/32/91</li>
+					</ul><a href="topic.php?topic_id=42">Read topic</a>
+				</li>
+				<li class="read">
+					<ul>
+						<li class="title">1 reply</li>
+						<li class="reply">Last reply by <a href="user.php?user_id=5">Evan</a> on 23/43/69</li>
+						<li class="author">Posted by <a href="user.php?user_id=2">Cheesycarrion</a> on 39/32/91</li>
+					</ul><a href="topic.php?topic_id=42">Read topic</a>
+				</li>
+				<li class="read">
+					<ul>
+						<li class="title">1 reply</li>
+						<li class="reply">Last reply by <a href="user.php?user_id=5">Evan</a> on 23/43/69</li>
+						<li class="author">Posted by <a href="user.php?user_id=2">Cheesycarrion</a> on 39/32/91</li>
+					</ul><a href="topic.php?topic_id=42">Read topic</a>
+				</li>
+				<li class="read">
+					<ul>
+						<li class="title">1 reply</li>
+						<li class="reply">Last reply by <a href="user.php?user_id=5">Evan</a> on 23/43/69</li>
+						<li class="author">Posted by <a href="user.php?user_id=2">Cheesycarrion</a> on 39/32/91</li>
+					</ul><a href="topic.php?topic_id=42">Read topic</a>
+				</li>
+			</ul>
+		</div>
+		<div class="pagiation">
+			<span class="newer">&larr; Newer Content</span>
+			<a class="older" href="older">Older Content &rarr;</a>
+			<div class="numbers">
+				<a class="number" href="1">1</a><a class="number selected" href="2">2</a><a class="number" href="3">3</a><a class="number" href="4">4</a>
+			</div>
+		</div>
+		<div class="activity">
+		<span>Users seen browsing this forum:</span> <a href="user.php?user_id=2">Cheesycarrion</a>, <a href="user.php?id=46">Bob</a>
+		</div>
+	</div>
+	<div id="footer">
+	<a href="blog.php">Blog</a>
+	<a href="contact.php">Contact</a>&copy; Copyright 2014
+	</div>
+</body>
+</html>

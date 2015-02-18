@@ -1,0 +1,11 @@
+div.contactinfo {
+	background-color: #bababa;
+}
+
+span.user_email::after{
+	content: attr(data-domain);
+}
+
+span.user_email::before{
+	content: attr(data-user);
+}

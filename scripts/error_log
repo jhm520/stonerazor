@@ -1,0 +1,34 @@
+[15-Dec-2014 20:49:49 America/Chicago] PHP Warning:  include_once(includes/register.inc.php): failed to open stream: No such file or directory in /home3/croston/public_html/scripts/register.php on line 2
+[15-Dec-2014 20:49:49 America/Chicago] PHP Warning:  include_once(): Failed opening 'includes/register.inc.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/croston/public_html/scripts/register.php on line 2
+[15-Dec-2014 20:49:49 America/Chicago] PHP Warning:  include_once(includes/functions.php): failed to open stream: No such file or directory in /home3/croston/public_html/scripts/register.php on line 3
+[15-Dec-2014 20:49:49 America/Chicago] PHP Warning:  include_once(): Failed opening 'includes/functions.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/croston/public_html/scripts/register.php on line 3
+[15-Dec-2014 20:49:49 America/Chicago] PHP Fatal error:  Call to undefined function esc_url() in /home3/croston/public_html/scripts/register.php on line 36
+[15-Dec-2014 20:52:48 America/Chicago] PHP Warning:  include_once(includes/register.inc.php): failed to open stream: No such file or directory in /home3/croston/public_html/scripts/register.php on line 2
+[15-Dec-2014 20:52:48 America/Chicago] PHP Warning:  include_once(): Failed opening 'includes/register.inc.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/croston/public_html/scripts/register.php on line 2
+[15-Dec-2014 20:52:48 America/Chicago] PHP Warning:  include_once(includes/functions.php): failed to open stream: No such file or directory in /home3/croston/public_html/scripts/register.php on line 3
+[15-Dec-2014 20:52:48 America/Chicago] PHP Warning:  include_once(): Failed opening 'includes/functions.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/croston/public_html/scripts/register.php on line 3
+[15-Dec-2014 20:52:48 America/Chicago] PHP Fatal error:  Call to undefined function esc_url() in /home3/croston/public_html/scripts/register.php on line 36
+[15-Dec-2014 20:52:58 America/Chicago] PHP Warning:  include_once(includes/register.inc.php): failed to open stream: No such file or directory in /home3/croston/public_html/scripts/register.php on line 2
+[15-Dec-2014 20:52:58 America/Chicago] PHP Warning:  include_once(): Failed opening 'includes/register.inc.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/croston/public_html/scripts/register.php on line 2
+[15-Dec-2014 20:52:58 America/Chicago] PHP Warning:  include_once(includes/functions.php): failed to open stream: No such file or directory in /home3/croston/public_html/scripts/register.php on line 3
+[15-Dec-2014 20:52:58 America/Chicago] PHP Warning:  include_once(): Failed opening 'includes/functions.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/croston/public_html/scripts/register.php on line 3
+[15-Dec-2014 20:52:58 America/Chicago] PHP Fatal error:  Call to undefined function esc_url() in /home3/croston/public_html/scripts/register.php on line 36
+[15-Dec-2014 20:52:59 America/Chicago] PHP Warning:  include_once(includes/register.inc.php): failed to open stream: No such file or directory in /home3/croston/public_html/scripts/register.php on line 2
+[15-Dec-2014 20:52:59 America/Chicago] PHP Warning:  include_once(): Failed opening 'includes/register.inc.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/croston/public_html/scripts/register.php on line 2
+[15-Dec-2014 20:52:59 America/Chicago] PHP Warning:  include_once(includes/functions.php): failed to open stream: No such file or directory in /home3/croston/public_html/scripts/register.php on line 3
+[15-Dec-2014 20:52:59 America/Chicago] PHP Warning:  include_once(): Failed opening 'includes/functions.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/croston/public_html/scripts/register.php on line 3
+[15-Dec-2014 20:52:59 America/Chicago] PHP Fatal error:  Call to undefined function esc_url() in /home3/croston/public_html/scripts/register.php on line 36
+[15-Dec-2014 20:53:28 America/Chicago] PHP Warning:  include_once(db_connect.php): failed to open stream: No such file or directory in /home3/croston/public_html/scripts/register.inc.php on line 2
+[15-Dec-2014 20:53:28 America/Chicago] PHP Warning:  include_once(): Failed opening 'db_connect.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/croston/public_html/scripts/register.inc.php on line 2
+[15-Dec-2014 20:53:28 America/Chicago] PHP Warning:  include_once(psl-config.php): failed to open stream: No such file or directory in /home3/croston/public_html/scripts/register.inc.php on line 3
+[15-Dec-2014 20:53:28 America/Chicago] PHP Warning:  include_once(): Failed opening 'psl-config.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/croston/public_html/scripts/register.inc.php on line 3
+[15-Dec-2014 20:53:28 America/Chicago] PHP Warning:  include_once(functions.php): failed to open stream: No such file or directory in /home3/croston/public_html/scripts/register.php on line 3
+[15-Dec-2014 20:53:28 America/Chicago] PHP Warning:  include_once(): Failed opening 'functions.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/croston/public_html/scripts/register.php on line 3
+[15-Dec-2014 20:53:28 America/Chicago] PHP Fatal error:  Call to undefined function esc_url() in /home3/croston/public_html/scripts/register.php on line 36
+[15-Dec-2014 20:56:45 America/Chicago] PHP Parse error:  syntax error, unexpected 'require_once' (T_REQUIRE_ONCE) in /home3/croston/public_html/scripts/register.php on line 3
+[17-Dec-2014 03:30:40 America/Chicago] PHP Warning:  include_once(functions.php): failed to open stream: No such file or directory in /home3/croston/public_html/scripts/logout.php on line 2
+[17-Dec-2014 03:30:40 America/Chicago] PHP Warning:  include_once(): Failed opening 'functions.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/croston/public_html/scripts/logout.php on line 2
+[17-Dec-2014 03:30:40 America/Chicago] PHP Fatal error:  Call to undefined function sec_session_start() in /home3/croston/public_html/scripts/logout.php on line 3
+[30-Dec-2014 01:33:39 America/Chicago] PHP Warning:  require(scripts/header.php): failed to open stream: No such file or directory in /home3/croston/public_html/scripts/forum_sam.php on line 4
+[30-Dec-2014 01:33:39 America/Chicago] PHP Warning:  require(scripts/header.php): failed to open stream: No such file or directory in /home3/croston/public_html/scripts/forum_sam.php on line 4
+[30-Dec-2014 01:33:39 America/Chicago] PHP Fatal error:  require(): Failed opening required 'scripts/header.php' (include_path='.:/opt/php54/lib/php') in /home3/croston/public_html/scripts/forum_sam.php on line 4

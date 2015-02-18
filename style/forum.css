@@ -1,0 +1,180 @@
+textarea {
+	resize:vertical;
+	min-height:60px;
+}
+
+div#topiclist {
+ border-top: 1px solid #A0A080;
+ }
+
+div#topiclist > ul > li a {
+ color: #3c4531;
+ text-decoration: none;
+ border-bottom: 1px dashed #A0A080;
+ }
+
+div#topiclist > ul > li:hover a {
+ border-color: #E0E0C0;
+ }
+
+div#topiclist ul li a:hover {
+ color: #000;
+ }
+
+div#topiclist ul {
+ margin: 0;
+ padding: 0;
+ list-style-type: none;
+ }
+
+div#topiclist > ul > li {
+ color: #3c4531;
+ height: 60px;
+ clear: both;
+ border-bottom: 1px solid #A0A080;
+ }
+
+div#topiclist > ul > li:hover {
+ background-color: #A0A080;
+ box-shadow: inset 0 0 10px #7D7D64;
+ }
+
+div#topiclist ul li ul {
+ float: right;
+ width: 300px;
+ }
+
+div#topiclist > ul > li > a {
+ display: block;
+ height: 55px;
+ overflow: hidden; /* makes it the max width possible depending on window size */
+ font-size: 18px;
+ padding: 5px 0 0 65px;
+ color: #3c4531;
+ text-decoration: none;
+ border: none;
+ }
+
+div#topiclist > ul > li.unread > a {
+ background-image: url('icons/topic_unread.svg');
+ background-repeat: no-repeat;
+ }
+
+div#topiclist > ul > li.unread:hover > a {
+ background-image: url('icons/topic_unread_hover.svg');
+ }
+
+div#topiclist > ul > li.read > a {
+ background-image: url('icons/topic_read.svg');
+ background-repeat: no-repeat;
+ }
+
+div#topiclist > ul > li.read:hover > a {
+ background-image: url('icons/topic_read_hover.svg');
+ }
+
+/* pagiation */
+
+div.pagiation {
+ padding: 20px 0;
+ }
+
+div.pagiation .newer { /* works for a or span */
+ float: left;
+ margin-left: 60px;
+ }
+
+div.pagiation .older { /* works for a or span */
+ float: right;
+ margin-right: 60px;
+ }
+
+div.pagiation a {
+ padding: 5px;
+ color: #3c4531;
+ text-decoration: none;
+ font-size: 18px;
+ }
+
+div.pagiation span {
+ padding: 5px;
+ color: #A0A080;
+ font-size: 18px;
+ }
+
+div.pagiation div.numbers {
+ text-align: center;
+ margin: 5px 10px;
+ }
+
+div.pagiation div.numbers a.number {
+ padding: 5px 15px;
+ }
+
+div.pagiation div.numbers a.selected {
+ border-bottom: 2px solid #A0A080;
+ }
+
+div.pagiation a:hover {
+ background-color: #402020;
+ color: #E0E0C0;
+ box-shadow: inset 0 0 15px #111;
+ }
+
+/* activity */
+
+div.activity {
+ padding: 20px 65px;
+ color: #3c4531;
+ }
+
+div.activity a {
+ color: #3c4531;
+ text-decoration: none;
+ border-bottom: 1px dashed #A0A080;
+ }
+
+div.activity a:hover {
+ color: #000;
+ }
+
+/* new topic box -- temporarily in default.css */
+
+div#newtopicbox {
+ display: none;
+ width: 650px;
+ margin-left: -325px; /* to counteract half of the width */
+ margin-top: 150px;
+ position: fixed;
+ padding: 10px 10px 60px 10px;
+ top: 0;
+ left: 50%;
+ background: -webkit-linear-gradient(#202020, #0c0c0c);
+ background: -o-linear-gradient(#202020, #0c0c0c);
+ background: -moz-linear-gradient(#202020, #0c0c0c);
+ background: linear-gradient(#202020, #0c0c0c);
+ border-radius: 10px;
+ z-index: 20;
+ color: #ffffff;
+}
+
+div#newtopicbox textarea, div#newtopicbox p.subject_p input {
+ position: absolute;
+ left: 130px;
+ width: 510px;
+ }
+
+div#newtopicbox p.button_p {
+ position: absolute;
+ left: 130px;
+ }
+
+div#newtopicbox p.button_p input {
+ width: 100px;
+ height: 35px;
+ margin-right: 10px;
+ }
+
+div#newtopicbox p.topic_body_p {
+ height: 77px;
+ }

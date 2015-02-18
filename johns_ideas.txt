@@ -1,0 +1,30 @@
+
+- topic.php:
+	- Access first 10 pages of posts on first php load.
+	
+	- Implement Javascript to be able to move through them.
+	
+	- Loading 10 pages isn't too expensive.
+	
+	- Upon accessing any arbitrary page, load the 10 closest pages.
+		ex. If the user chooses to view page 10, pages 6 - 15 will also be loaded.
+			
+	- Javascript would make for a much more fluid user experience. Way fewer loads
+		when browsing posts rapidly.
+			
+	- This site could be like 4chan, but without all the excessive scrolling
+		required to read posts. Instead, button pressing.
+	
+	- If a user uploads an image, only display the thumbnail until the user interacts with it.
+	
+- login/registration:
+	- We need to discuss brute force countermeasures. Currently, if a user has 5 failed log in attempts,
+		their account is locked, with 5 rows added to the "flood" table, one for each attempt.
+		Their account will be locked until the rows are cleared. This seems kind of annoying, but
+		I don't know if it is necessary or not.
+	
+	- We should add a registration email loop. Shouldn't be too hard.
+
+- Header/Footer/Titlebar
+	- All fixed positions, would help eliminate excessive scrolling.
+	- One of the things I hate about facebook/4chan is that so much fucking scrolling is needed to see content.
