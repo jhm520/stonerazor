@@ -25,6 +25,8 @@ var main = function() {
 	
 	//alert(window.location.hash.split('#')[1]);
 	
+	change_page(start, post_per_page);
+	
 	//Pagiation
 	$('.number').click(function() {
 		var name = $(this).attr('name');

@@ -224,11 +224,17 @@ l-37.252,37.253c29.758,29.757,70.867,48.162,116.273,48.162c90.814,0,164.436-73.6
 		$page_per_load = 10;
 		$post_per_load = $post_per_page*$page_per_load;
 		
+		$start = 0;
+		$start = strint($_GET["start"]);
+		
+		//$start = strint($_COOKIE['start']);
+		
 		?>
 		<script>
 			post_per_page = "<?php echo $post_per_page; ?>";
 			page_per_load = "<?php echo $page_per_load; ?>";
 			post_per_load = post_per_page*page_per_load;
+			start = "<?php echo $start; ?>";
 			
 			var query = location.href.split('#');
 			document.cookie = query[1];
@@ -237,10 +243,7 @@ l-37.252,37.253c29.758,29.757,70.867,48.162,116.273,48.162c90.814,0,164.436-73.6
 		</script>
 		<?php
 		
-		$start = 0;
-		$start = strint($_GET["start"]);
 		
-		//$start = strint($_COOKIE['start']);
 		
 		$url = parse_url(getlink(array(), array(), array()), PHP_URL_FRAGMENT);
 		echo $url;
