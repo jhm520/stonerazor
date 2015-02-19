@@ -220,9 +220,9 @@ l-37.252,37.253c29.758,29.757,70.867,48.162,116.273,48.162c90.814,0,164.436-73.6
 		
 		$num_all_post = mysqli_num_rows($all_post);
 	
-		$posts_per_page = 5;
-		$pages_per_load = 10;
-		$posts_per_load = $posts_per_page*$pages_per_load;
+		$post_per_page = 5;
+		$page_per_load = 10;
+		$post_per_load = $post_per_page*$page_per_load;
 		
 		?>
 		<script>
@@ -245,14 +245,14 @@ l-37.252,37.253c29.758,29.757,70.867,48.162,116.273,48.162c90.814,0,164.436-73.6
 		
 		if ($start > 0)
 		{
-			$loadstart = $start-($posts_per_load/2);
+			$loadstart = $start-($post_per_load/2);
 			
 			if ($loadstart < 0)
 			{
 				$loadstart = 0;
 			}
 			
-			$loadend = $loadstart+$posts_per_load;
+			$loadend = $loadstart+$post_per_load;
 		}
 				
 		/*
@@ -272,11 +272,11 @@ l-37.252,37.253c29.758,29.757,70.867,48.162,116.273,48.162c90.814,0,164.436-73.6
 			ORDER BY
 				post.post_timestamp ASC
 			LIMIT "
-				. $loadstart . ", " . $posts_per_load;
+				. $loadstart . ", " . $post_per_load;
 				
 		$post_result = $mysqli->query($post_query) or die("Error:" . $mysqli->error);
 		
-		pagiation($start, $posts_per_page, $num_all_post, $loadstart, $pages_per_load, True);
+		pagiation($start, $post_per_page, $num_all_post, $loadstart, $page_per_load, True);
 		?>
 		
 		<div id="postlist">
@@ -289,7 +289,7 @@ l-37.252,37.253c29.758,29.757,70.867,48.162,116.273,48.162c90.814,0,164.436-73.6
 			{
 				$noshow = "noshow";
 			}
-			else if ($post_count+$loadstart >= $start+$posts_per_page)
+			else if ($post_count+$loadstart >= $start+$post_per_page)
 			{
 				$noshow = "noshow";
 			}
