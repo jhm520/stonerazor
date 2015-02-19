@@ -1,9 +1,6 @@
 /* jquery
 */
 
-
-
-
 function change_page (name, post_per_page) {
 	$('.number.selected').removeClass('selected');
 	$('.number[name="'+name+'"]').addClass('selected');
