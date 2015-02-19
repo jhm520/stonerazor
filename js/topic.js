@@ -11,7 +11,7 @@ function change_page (name, post_per_page)
 		$('.post[name="'+(parseInt(name)+i)+'"]').removeClass('noshow');
 	}
 	$(location).attr('href', $('.number.selected').attr('href'));
-	location.hash = '#' + name;
+	window.location.hash = '#' + name;
 }
 
 function go_to_post (id, post_per_page)
