@@ -233,13 +233,14 @@ l-37.252,37.253c29.758,29.757,70.867,48.162,116.273,48.162c90.814,0,164.436-73.6
 			var query = location.href.split('#');
 			document.write(query[1]);
 			document.cookie = query[1];
+			
+			
 		</script>
 		<?php
 		
-		echo $_COOKIE['start'];
-		
 		$start = 0;
 		$start = strint($_GET["start"]);
+		$start = strint($_COOKIE['start']);
 		
 		$url = parse_url(getlink(array(), array(), array()), PHP_URL_FRAGMENT);
 		echo $url;
