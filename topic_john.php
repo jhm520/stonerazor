@@ -232,12 +232,6 @@ l-37.252,37.253c29.758,29.757,70.867,48.162,116.273,48.162c90.814,0,164.436-73.6
 			
 			var query = location.href.split('#');
 			document.cookies = 'anchor=' + query[1];
-			
-			<?php if (!$_COOKIE['anchor']) : ?>
- 
-			window.location.reload();
-			 
-			<?php endif; ?>
 		</script>
 		<?php
 		
