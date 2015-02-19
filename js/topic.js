@@ -30,7 +30,7 @@ var main = function() {
 	$('textarea').autosize();
 	
 	//alert(window.location.hash.split('#')[1]);
-	if (window.location.hash != null)
+	if (window.location.hash.split('#')[1] != null)
 	{
 		change_page(window.location.hash.split('#')[1], post_per_page);
 	}
