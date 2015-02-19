@@ -45,6 +45,7 @@ var main = function() {
 		var name = $('.number.selected').attr('name');
 		var num = parseInt(name)+post_per_page;
 		num = num.toString();
+		alert(num);
 		change_page(num, post_per_page);
 	});
 	
