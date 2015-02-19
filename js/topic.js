@@ -1,7 +1,8 @@
 /* jquery
 */
 
-function change_page (name, post_per_page) {
+function change_page (name, post_per_page)
+{
 	$('.number.selected').removeClass('selected');
 	$('.number[name="'+name+'"]').addClass('selected');
 	$('.post').addClass('noshow');
@@ -10,7 +11,12 @@ function change_page (name, post_per_page) {
 		$('.post[name="'+(parseInt(name)+i)+'"]').removeClass('noshow');
 	}
 	$(location).attr('href', $('.number.selected').attr('href'));
-	location.hash = '#start=' + name;
+	location.hash = '#' + name;
+}
+
+function go_to_post (id, post_per_page)
+{
+	return;
 }
 
 var main = function() {
@@ -25,7 +31,7 @@ var main = function() {
 	
 	//alert(window.location.hash.split('#')[1]);
 	
-	change_page(start, post_per_page);
+	change_page(window.location.hash.split('#')[1], post_per_page);
 	
 	//Pagiation
 	$('.number').click(function() {
