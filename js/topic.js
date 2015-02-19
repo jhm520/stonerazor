@@ -51,6 +51,10 @@ var main = function() {
 	$('a.newer').click(function() {
 		var name = $('.number.selected').attr('name');
 		var num = parseInt(name)-parseInt(post_per_page);
+		if (num < 0)
+		{
+			num = 0;
+		}
 		num = num.toString();
 		change_page(num, post_per_page);
 	});
