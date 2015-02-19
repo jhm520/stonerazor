@@ -10,7 +10,7 @@ function change_page (name, post_per_page) {
 		$('.post[name="'+(parseInt(name)+i)+'"]').removeClass('noshow');
 	}
 	$(location).attr('href', $('.number.selected').attr('href'));
-	location.hash = '#start' + 'name';
+	location.hash = '#start' + name;
 }
 
 var main = function() {
