@@ -27,14 +27,14 @@ var main = function() {
 		change_page(name, post_per_page);
 	});
 	
-	$('.older').click(function() {
+	$('a.older').click(function() {
 		var name = $('.number.selected').attr('name');
 		var num = parseInt(name)+post_per_page;
 		num = num.toString();
 		change_page(num, post_per_page);
 	});
 	
-	$('.newer').click(function() {
+	$('a.newer').click(function() {
 		var name = $('.number.selected').attr('name');
 		var num = parseInt(name)-post_per_page;
 		num = num.toString();
