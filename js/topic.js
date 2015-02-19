@@ -23,7 +23,7 @@ var main = function() {
 	//Textarea autosize function
 	$('textarea').autosize();
 	
-	alert(window.location.hash.split('#'));
+	alert(window.location.hash.split('#')[1]);
 	
 	//Pagiation
 	$('.number').click(function() {

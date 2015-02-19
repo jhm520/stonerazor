@@ -318,7 +318,7 @@ l-37.252,37.253c29.758,29.757,70.867,48.162,116.273,48.162c90.814,0,164.436-73.6
 			  }
 			}
 		?>
-				<li name="<?php echo $loadstart+$post_count;?>" class="post <?php echo $noshow;?>">
+				<li id="<?php echo $post["post_id"];?>" name="<?php echo $loadstart+$post_count;?>" class="post <?php echo $noshow;?>">
 					<div class="post_user">
 						<ul>
 							<li class="avatar"></li>
