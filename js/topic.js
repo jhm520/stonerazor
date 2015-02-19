@@ -23,6 +23,8 @@ var main = function() {
 	//Textarea autosize function
 	$('textarea').autosize();
 	
+	alert(window.location.hash);
+	
 	//Pagiation
 	$('.number').click(function() {
 		var name = $(this).attr('name');
@@ -55,6 +57,8 @@ var main = function() {
 	$('#new_topic_btn').click(function() {
 		$('#new_topic').toggle();
 	});
+	
+	
 };
 
 $(document).ready(main);
