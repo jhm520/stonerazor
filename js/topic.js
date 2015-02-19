@@ -30,8 +30,10 @@ var main = function() {
 	$('textarea').autosize();
 	
 	//alert(window.location.hash.split('#')[1]);
-	
-	change_page(window.location.hash.split('#')[1], post_per_page);
+	if (window.location.hash != null)
+	{
+		change_page(window.location.hash.split('#')[1], post_per_page);
+	}
 	
 	//Pagiation
 	$('.number').click(function() {
