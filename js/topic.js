@@ -13,10 +13,11 @@ function change_page (name, post_per_page) {
 }
 
 var main = function() {
-
+	/*
 	var post_per_page = $('.post').length - $('.noshow').length;
 	var page_per_load = $('.post').length/post_per_page;
 	var post_per_load = post_per_page*post_per_load;
+	*/
 
 	//Textarea autosize function
 	$('textarea').autosize();
