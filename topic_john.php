@@ -220,7 +220,7 @@ l-37.252,37.253c29.758,29.757,70.867,48.162,116.273,48.162c90.814,0,164.436-73.6
 		
 		$num_all_post = mysqli_num_rows($all_post);
 	
-		$post_per_page = 5;
+		$post_per_page = 10;
 		$page_per_load = 10;
 		$post_per_load = $post_per_page*$page_per_load;
 		
@@ -231,6 +231,7 @@ l-37.252,37.253c29.758,29.757,70.867,48.162,116.273,48.162c90.814,0,164.436-73.6
 		
 		?>
 		<script>
+			//Pass variables to javascript.
 			post_per_page = "<?php echo $post_per_page; ?>";
 			page_per_load = "<?php echo $page_per_load; ?>";
 			post_per_load = post_per_page*page_per_load;
@@ -238,11 +239,6 @@ l-37.252,37.253c29.758,29.757,70.867,48.162,116.273,48.162c90.814,0,164.436-73.6
 			
 		</script>
 		<?php
-		
-		
-		
-		$url = parse_url(getlink(array(), array(), array()), PHP_URL_FRAGMENT);
-		echo $url;
 		
 		if ($start >= $num_all_post-1)
 		{
