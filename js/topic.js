@@ -44,11 +44,6 @@ var main = function() {
 		if (num > num_all_post)
 		{
 			num = oldnum;
-			$('a.older').addClass('grey');
-		}
-		else
-		{
-			$('a.older').removeClass('grey');
 		}
 		num = num.toString();
 		change_page(num, post_per_page);
@@ -60,11 +55,6 @@ var main = function() {
 		if (num < 0)
 		{
 			num = 0;
-			$('a.newer').addClass('grey');
-		}
-		else
-		{
-			$('a.newer').removeClass('grey');
 		}
 		num = num.toString();
 		change_page(num, post_per_page);
