@@ -16,7 +16,7 @@ function change_page (name, post_per_page)
 	{
 		$('a.newer').removeClass('grey');
 		$('a.newer').addClass('active');
-		$('a.newer').attr('href', 'javascript: void()');
+		$('a.newer').attr('href', 'javascript: void();');
 	}
 	
 	if ($('.number.last').hasClass('selected'))
@@ -29,7 +29,7 @@ function change_page (name, post_per_page)
 	{
 		$('a.older').removeClass('grey');
 		$('a.older').addClass('active');
-		$('a.older').attr('href', 'javascript: void()');
+		$('a.older').attr('href', 'javascript: void();');
 	}
 	$('.post').addClass('noshow');
 	for (i=0;i<post_per_page;i++)
