@@ -9,19 +9,23 @@ function change_page (name, post_per_page)
 	if ($('.number.first').hasClass('selected'))
 	{
 		$('a.newer').addClass('grey');
+		$('a.newer').removeClass('active');
 	}
 	else
 	{
 		$('a.newer').removeClass('grey');
+		$('a.newer').addClass('active');
 	}
 	
 	if ($('.number.last').hasClass('selected'))
 	{
 		$('a.older').addClass('grey');
+		$('a.older').removeClass('active');
 	}
 	else
 	{
 		$('a.older').removeClass('grey');
+		$('a.older').addClass('active');
 	}
 	$('.post').addClass('noshow');
 	for (i=0;i<post_per_page;i++)
