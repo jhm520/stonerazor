@@ -43,7 +43,12 @@ var main = function() {
 	
 	$('a.older').click(function() {
 		var name = $('.number.selected').attr('name');
-		var num = parseInt(name)+parseInt(post_per_page);
+		var oldnum = parseInt(name);
+		var num = oldnum+parseInt(post_per_page);
+		if (num > num_all_post)
+		{
+			num = oldnum;
+		}
 		num = num.toString();
 		change_page(num, post_per_page);
 	});
