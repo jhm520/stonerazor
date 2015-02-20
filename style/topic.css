@@ -113,6 +113,7 @@ div.pagiation a.grey
 	padding: 5px;
 	color: #A0A080;
 	font-size: 18px;
+	text-decoration: none;
 }
 
 div.pagiation a.grey:hover
