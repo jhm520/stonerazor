@@ -11,10 +11,6 @@ function change_page (name, post_per_page)
 		$('.post[name="'+(parseInt(name)+i)+'"]').removeClass('noshow');
 	}
 	
-	if (parseInt(name) == 0)
-	{
-		$('a.newer').addClass('grey');
-	}
 	$(location).attr('href', $('.number.selected').attr('href'));
 	window.location.hash = '#' + name;
 }
@@ -48,6 +44,11 @@ var main = function() {
 		if (num > num_all_post)
 		{
 			num = oldnum;
+			$('a.older').addClass('grey');
+		}
+		else
+		{
+			$('a.older').removeClass('grey');
 		}
 		num = num.toString();
 		change_page(num, post_per_page);
@@ -59,6 +60,11 @@ var main = function() {
 		if (num < 0)
 		{
 			num = 0;
+			$('a.newer').addClass('grey');
+		}
+		else
+		{
+			$('a.newer').removeClass('grey');
 		}
 		num = num.toString();
 		change_page(num, post_per_page);
