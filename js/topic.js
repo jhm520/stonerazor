@@ -9,27 +9,27 @@ function change_page (name, post_per_page)
 	if ($('.number.first').hasClass('selected'))
 	{
 		$('a.newer').addClass('grey');
-		$('a.newer').attr('href', '');
+		//$('a.newer').attr('href', '');
 		$('a.newer').removeClass('active');
 	}
 	else
 	{
 		$('a.newer').removeClass('grey');
 		$('a.newer').addClass('active');
-		$('a.newer').attr('href', 'javascript: void();');
+		//$('a.newer').attr('href', 'javascript: void();');
 	}
 	
 	if ($('.number.last').hasClass('selected'))
 	{
 		$('a.older').addClass('grey');
-		$('a.older').attr('href', '');
+		//$('a.older').attr('href', '');
 		$('a.older').removeClass('active');
 	}
 	else
 	{
 		$('a.older').removeClass('grey');
 		$('a.older').addClass('active');
-		$('a.older').attr('href', 'javascript: void();');
+		//$('a.older').attr('href', 'javascript: void();');
 	}
 	$('.post').addClass('noshow');
 	for (i=0;i<post_per_page;i++)
