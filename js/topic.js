@@ -56,6 +56,10 @@ var main = function() {
 	{
 		change_page(window.location.hash.split('#')[1], post_per_page);
 	}
+	else if (start != null)
+	{
+		change_page(start, post_per_page);
+	}
 	
 	//Pagiation
 	$('.number').click(function() {
