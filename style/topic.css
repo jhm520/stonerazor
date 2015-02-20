@@ -112,8 +112,9 @@ div.pagiation a.grey
 div.pagiation a.grey:hover
 {
 	box-shadow: none;
-	background-color: #A0A080;
-	font-size: 18px;
+	color: #A0A080;
+	background-color: none;
+	font-size: 18px
 }
 
 div.pagiation span
