@@ -13,16 +13,16 @@ WARNING: this function ECHOes text. It does not return!
 
 function pagiation($start,$ipp = 15,$num_rows, $loadstart=0, $ppl=10, $john=False)
 {
+	//$john is a temporary variable for testing this version of the pagiation function.
 	
-	
-	
+	// John's code
 	if ($john){
 		echo "<div class=\"pagiation\">\n";
 		if ($start > 0) echo "<a name=\"".($start-$ipp)."\" class=\"newer\" href=\"javascript:void();\">&larr; Newer Content</a>\n"; // strint it so it doesn't go negative
-		else echo "<span class=\"newer\">&larr; Newer Content</span>\n";
+		else echo "<a class=\"newer\">&larr; Newer Content</a>\n";
 		
 		if ($num_rows > $start+$ipp) echo "<a name=\"".($start+$ipp)."\" class=\"older\" href=\"javascript:void();        \">Older Content&rarr;</a>\n";
-		else echo "<span class=\"older\">Older Content &rarr;</span>\n";
+		else echo "<a class=\"older\">Older Content &rarr;</a>\n";
 		
 		echo "<div class=\"numbers\">\n";
 		
@@ -49,6 +49,7 @@ function pagiation($start,$ipp = 15,$num_rows, $loadstart=0, $ppl=10, $john=Fals
 		echo "</div>\n";
 		echo "</div>\n";
 	}
+	//Sam's code
 	else
 	{
 		echo "<div class=\"pagiation\">\n";
