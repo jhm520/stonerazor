@@ -102,6 +102,12 @@ div.pagiation a
 	font-size: 18px;
 }
 
+div.pagiation a:hover {
+	background-color: #402020;
+	color: #E0E0C0;
+	box-shadow: inset 0 0 15px #111;
+}
+
 div.pagiation a.grey
 {
 	padding: 5px;
@@ -137,11 +143,7 @@ div.pagiation div.numbers a.selected {
  border-bottom: 2px solid #A0A080;
  }
 
-div.pagiation a:hover {
- background-color: #402020;
- color: #E0E0C0;
- box-shadow: inset 0 0 15px #111;
- }
+
 
 /* activity */
 
