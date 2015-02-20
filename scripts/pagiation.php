@@ -18,10 +18,10 @@ function pagiation($start,$ipp = 15,$num_rows, $loadstart=0, $ppl=10, $john=Fals
 	// John's code
 	if ($john){
 		echo "<div class=\"pagiation\">\n";
-		if ($start > 0) echo "<a name=\"".($start-$ipp)."\" class=\"newer\" href=\"javascript:void();\">&larr; Newer Content</a>\n"; // strint it so it doesn't go negative
+		if ($start > 0) echo "<a name=\"".($start-$ipp)."\" class=\"newer active\" href=\"javascript:void();\">&larr; Newer Content</a>\n"; // strint it so it doesn't go negative
 		else echo "<a class=\"newer\">&larr; Newer Content</a>\n";
 		
-		if ($num_rows > $start+$ipp) echo "<a name=\"".($start+$ipp)."\" class=\"older\" href=\"javascript:void();        \">Older Content&rarr;</a>\n";
+		if ($num_rows > $start+$ipp) echo "<a name=\"".($start+$ipp)."\" class=\"older active\" href=\"javascript:void();        \">Older Content&rarr;</a>\n";
 		else echo "<a class=\"older\">Older Content &rarr;</a>\n";
 		
 		echo "<div class=\"numbers\">\n";
@@ -45,16 +45,16 @@ function pagiation($start,$ipp = 15,$num_rows, $loadstart=0, $ppl=10, $john=Fals
 			
 			if ($i*$ipp<$loadstart)
 			{
-				echo "<a name=\"". ($i*$ipp) ."\" class=\"number" . $selected.$first.$last . "\" href=\"" . getlink(array("start","op"),array("start"),array($i*$ipp)) . "\">" . ($i+1) . "</a>"; // NO WHITESPACE FOR CSS!!!
+				echo "<a name=\"". ($i*$ipp) ."\" class=\"number active" . $selected.$first.$last . "\" href=\"" . getlink(array("start","op"),array("start"),array($i*$ipp)) . "\">" . ($i+1) . "</a>"; // NO WHITESPACE FOR CSS!!!
 
 			}
 			else if ($i*$ipp>=$loadstart+($ppl*$ipp))
 			{
-				echo "<a name=\"".($i*$ipp) ."\" class=\"number" . $selected.$first.$last . "\" href=\"" . getlink(array("start","op"),array("start"),array($i*$ipp)) . "\">" . ($i+1) . "</a>"; // NO WHITESPACE FOR CSS!!!
+				echo "<a name=\"".($i*$ipp) ."\" class=\"number active" . $selected.$first.$last . "\" href=\"" . getlink(array("start","op"),array("start"),array($i*$ipp)) . "\">" . ($i+1) . "</a>"; // NO WHITESPACE FOR CSS!!!
 			}
 			else
 			{
-				echo "<a name=\"".($i*$ipp) ."\" class=\"number" . $selected.$first.$last . " loaded\" href=\"javascript:void();\">" . ($i+1) . "</a>"; // NO WHITESPACE FOR CSS!!!
+				echo "<a name=\"".($i*$ipp) ."\" class=\"number active" . $selected.$first.$last . " loaded\" href=\"javascript:void();\">" . ($i+1) . "</a>"; // NO WHITESPACE FOR CSS!!!
 			}
 			//echo "<a class=\"number" . $selected . "\" href=\"" . getlink(array("start","op"),array("start"),array($i*$ipp)) . "\">" . ($i+1) . "</a>"; // NO WHITESPACE FOR CSS!!!
 		}
