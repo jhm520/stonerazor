@@ -114,7 +114,8 @@ div.pagiation a.grey
 	color: #A0A080;
 	font-size: 18px;
 	text-decoration: none;
-	cursor:text;
+	/*cursor:text;*/
+	cursor: default;
 }
 
 div.pagiation a.grey:hover
