@@ -28,20 +28,33 @@ function pagiation($start,$ipp = 15,$num_rows, $loadstart=0, $ppl=10, $john=Fals
 		
 		for ($i=0;$i*$ipp<$num_rows;$i++)
 		{
+			$first = "";
+			$last = "";
+			if ($i==0)
+			{
+				 $first = " first";
+			}
+			
+			if (($i+1)*$ipp>=$num_rows)
+			{
+				$last = " last";
+			}
+			
 			if ($start==$i*$ipp) $selected = " selected";
 			else $selected = "";
+			
 			if ($i*$ipp<$loadstart)
 			{
-				echo "<a name=\"". ($i*$ipp) ."\" class=\"number" . $selected . "\" href=\"" . getlink(array("start","op"),array("start"),array($i*$ipp)) . "\">" . ($i+1) . "</a>"; // NO WHITESPACE FOR CSS!!!
+				echo "<a name=\"". ($i*$ipp) ."\" class=\"number" . $selected.$first.$last . "\" href=\"" . getlink(array("start","op"),array("start"),array($i*$ipp)) . "\">" . ($i+1) . "</a>"; // NO WHITESPACE FOR CSS!!!
 
 			}
 			else if ($i*$ipp>=$loadstart+($ppl*$ipp))
 			{
-				echo "<a name=\"".($i*$ipp) ."\" class=\"number" . $selected . "\" href=\"" . getlink(array("start","op"),array("start"),array($i*$ipp)) . "\">" . ($i+1) . "</a>"; // NO WHITESPACE FOR CSS!!!
+				echo "<a name=\"".($i*$ipp) ."\" class=\"number" . $selected.$first.$last . "\" href=\"" . getlink(array("start","op"),array("start"),array($i*$ipp)) . "\">" . ($i+1) . "</a>"; // NO WHITESPACE FOR CSS!!!
 			}
 			else
 			{
-				echo "<a name=\"".($i*$ipp) ."\" class=\"number" . $selected . " loaded\" href=\"javascript:void();\">" . ($i+1) . "</a>"; // NO WHITESPACE FOR CSS!!!
+				echo "<a name=\"".($i*$ipp) ."\" class=\"number" . $selected.$first.$last . " loaded\" href=\"javascript:void();\">" . ($i+1) . "</a>"; // NO WHITESPACE FOR CSS!!!
 			}
 			//echo "<a class=\"number" . $selected . "\" href=\"" . getlink(array("start","op"),array("start"),array($i*$ipp)) . "\">" . ($i+1) . "</a>"; // NO WHITESPACE FOR CSS!!!
 		}

@@ -5,6 +5,24 @@ function change_page (name, post_per_page)
 {
 	$('.number.selected').removeClass('selected');
 	$('.number[name="'+name+'"]').addClass('selected');
+	
+	if ($('.number.first').hasClass('selected'))
+	{
+		$('a.newer').addClass('grey');
+	}
+	else
+	{
+		$('a.newer').removeClass('grey');
+	}
+	
+	if ($('.number.last').hasClass('selected'))
+	{
+		$('a.older').addClass('grey');
+	}
+	else
+	{
+		$('a.older').removeClass('grey');
+	}
 	$('.post').addClass('noshow');
 	for (i=0;i<post_per_page;i++)
 	{
