@@ -94,8 +94,17 @@ div.pagiation .older { /* works for a or span */
  margin-right: 60px;
  }
 
+div.pagiation a
+{
+	padding: 5px;
+	color: #3c4531;
+	text-decoration: none;
+	font-size: 18px;
+}
+
  /*	This is John, I'm just changing these classes
 	to work with my modifications to the topic.php and pagiation.php files.*/
+
 div.pagiation a.active
 {
 	padding: 5px;
