@@ -21,7 +21,6 @@ function pagiation($start,$ipp = 15,$num_rows, $js=False, $loadstart=0, $ppl=10)
 		$js 		==	Whether or not you want to use the new javascript pagiation functionality.
 		$loadstart	==	If using $js, what post will be loaded first.
 		$ppl		==  If using $js, how many pages will be loaded.
-		
 	*/
 	
 	if ($js)
@@ -39,6 +38,7 @@ function pagiation($start,$ipp = 15,$num_rows, $js=False, $loadstart=0, $ppl=10)
 		{
 			$first = "";
 			$last = "";
+			
 			if ($i==0)
 			{
 				 $first = " first";
