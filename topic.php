@@ -281,7 +281,7 @@ l-37.252,37.253c29.758,29.757,70.867,48.162,116.273,48.162c90.814,0,164.436-73.6
 				
 		$post_result = $mysqli->query($post_query) or die("Error:" . $mysqli->error);
 		
-		pagiation($start, $post_per_page, $num_all_post, $loadstart, $page_per_load);
+		pagiation($start, $post_per_page, $num_all_post, $loadstart, $page_per_load, True);
 		?>
 		
 		<div id="postlist">
