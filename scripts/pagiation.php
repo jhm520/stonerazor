@@ -11,10 +11,17 @@ WARNING: this function ECHOes text. It does not return!
 
 ****************************************************/
 
-function pagiation($start,$ipp = 15,$num_rows, $loadstart=0, $ppl=10, $js=False)
+function pagiation($start,$ipp = 15,$num_rows, $js=False, $loadstart=0, $ppl=10)
 {
 	
 	/* John's new code
+		$start 		== 	Which post in the query result will be displayed on the page first
+		$ipp 		== 	How many posts are displayed per page
+		$num_rows 	== 	The total number of rows in the database
+		$js 		==	Whether or not you want to use the new javascript pagiation functionality.
+		$loadstart	==	If using $js, what post will be loaded first.
+		$ppl		==  If using $js, how many pages will be loaded.
+		
 	*/
 	
 	if ($js)
