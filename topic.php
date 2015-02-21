@@ -220,11 +220,46 @@ l-37.252,37.253c29.758,29.757,70.867,48.162,116.273,48.162c90.814,0,164.436-73.6
 		
 		$num_all_post = mysqli_num_rows($all_post);
 	
-		$posts_per_page = 5;
-		$pages_per_load = 10;
-		$posts_per_load = $posts_per_page*$pages_per_load;
+		$post_per_page = 10;
+		$page_per_load = 10;
+		$post_per_load = $post_per_page*$page_per_load;
+		
 		$start = 0;
-		$start += strint($_GET["start"]);
+		$start = strint($_GET["start"]);
+		
+		//$start = strint($_COOKIE['start']);
+		
+		?>
+		<script>
+			//Pass variables to javascript.
+			post_per_page = "<?php echo $post_per_page; ?>";
+			page_per_load = "<?php echo $page_per_load; ?>";
+			post_per_load = post_per_page*page_per_load;
+			num_all_post = "<?php echo $num_all_post; ?>";
+			start = "<?php echo $start; ?>";
+		</script>
+		<?php
+		
+		if ($start >= $num_all_post-1)
+		{
+			$start = $num_all_post-1;
+		}
+		
+		
+		$loadstart = 0;
+		
+		if ($start > 0)
+		{
+			$loadstart = $start-($post_per_load/2);
+			
+			if ($loadstart < 0)
+			{
+				$loadstart = 0;
+			}
+			
+			$loadend = $loadstart+$post_per_load;
+		}
+				
 		/*
 			Get info from the post table joined with the user table
 		*/
@@ -242,19 +277,32 @@ l-37.252,37.253c29.758,29.757,70.867,48.162,116.273,48.162c90.814,0,164.436-73.6
 			ORDER BY
 				post.post_timestamp ASC
 			LIMIT "
-				. $start . ", " . $posts_per_page;
+				. $loadstart . ", " . $post_per_load;
 				
 		$post_result = $mysqli->query($post_query) or die("Error:" . $mysqli->error);
 		
-		pagiation($start, $posts_per_page, $num_all_post);
+		pagiation($start, $post_per_page, $num_all_post, $loadstart, $page_per_load);
 		?>
 		
 		<div id="postlist">
 			<ul>
 		<?php
-		
+		$post_count = 0;
 		while ($post = $post_result->fetch_array())
 		{
+			if ($post_count+$loadstart < $start)
+			{
+				$noshow = "noshow";
+			}
+			else if ($post_count+$loadstart >= $start+$post_per_page)
+			{
+				$noshow = "noshow";
+			}
+			else
+			{
+				$noshow = "";
+			}
+			
 			$edit_btn='';
 			$delete_btn='';
 			if ($post["user_id"] == $userdata["user_id"]){
@@ -265,7 +313,7 @@ l-37.252,37.253c29.758,29.757,70.867,48.162,116.273,48.162c90.814,0,164.436-73.6
 			  }
 			}
 		?>
-				<li>
+				<li id="<?php echo $post["post_id"];?>" name="<?php echo $loadstart+$post_count;?>" class="post <?php echo $noshow;?>">
 					<div class="post_user">
 						<ul>
 							<li class="avatar"></li>
@@ -273,7 +321,6 @@ l-37.252,37.253c29.758,29.757,70.867,48.162,116.273,48.162c90.814,0,164.436-73.6
 							<li class="timestamp">Posted at: <?php echo $post["post_timestamp"]; ?></li>
 							<li class="buttons"><?php echo $edit_btn." " .$delete_btn;?></li>
 						</ul>
-						
 					</div>
 					<div class="post_body" name="<?php echo $post["post_id"]; ?>">
 						<div class="text_body" name="<?php echo $post["post_id"]; ?>"><?php echo nl2br(htmlentities($post["post_body"]),false); ?></div>
@@ -292,6 +339,7 @@ l-37.252,37.253c29.758,29.757,70.867,48.162,116.273,48.162c90.814,0,164.436-73.6
 					</div>
 				</li>
 		<?php
+			$post_count++;
 		}
 		?>
 		<!--
@@ -320,7 +368,6 @@ l-37.252,37.253c29.758,29.757,70.867,48.162,116.273,48.162c90.814,0,164.436-73.6
 			</ul>
 		</div>
 			<?php
-		pagiation($start, $posts_per_page, $num_all_post);
 	}
 ?>
 </div>
