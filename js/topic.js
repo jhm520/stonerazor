@@ -1,6 +1,63 @@
 /* jquery
 */
 
+function parse_anchor (anchor) {
+	
+	var cmds = anchor.split("&");
+	
+	var cmdsLen = cmds.length;
+	
+	var cmdTuples = [];
+	
+	for (var i = 0;i<cmdsLen;i++)
+	{
+		var cmd = cmds[i];
+		
+		var cmdTuple = cmd.split("=");
+		
+		cmdTuples.push(cmdTuple);
+	}
+	
+	return cmdTuples;
+}
+
+function change_anchor (name, value)
+{
+	var newAnchor = "#";
+	var cmdFound = false;
+	
+	for (var i = 0; i < cmdTuplesLen; i++)
+	{
+		var cmdName = cmdTuples[i][0];
+		
+		if (cmdName == name)
+		{
+			cmdFound = true;
+			cmdTuples[i][1] = value;
+		}
+		
+		if (i != 0)
+		{
+			newAnchor = newAnchor + "&";
+		}
+
+		newAnchor = newAnchor + cmdTuples[i][0] + "=" + cmdTuples[i][1];
+	}
+	
+
+	if (cmdFound == false)
+	{
+		if (cmdTuplesLen >= 1)
+		{
+			newAnchor = newAnchor + "&";
+		}
+		cmdTuples.push([name, value]);
+		newAnchor = newAnchor + name + "=" + value;
+	}
+
+	window.location.hash = newAnchor;
+}
+
 function change_page (name, post_per_page)
 {
 	$('.number.selected').removeClass('selected');
@@ -38,7 +95,10 @@ function change_page (name, post_per_page)
 	}
 	
 	$(location).attr('href', $('.number.selected').attr('href'));
-	window.location.hash = '#' + name;
+	
+	change_anchor ("start", name);
+	
+	
 }
 
 function go_to_post (id, post_per_page)
@@ -51,23 +111,39 @@ var main = function() {
 	//Textarea autosize function
 	$('textarea').autosize();
 	
-	//alert(window.location.hash.split('#')[1]);
-	if (window.location.hash.split('#')[1] != null)
-	{
-		change_page(window.location.hash.split('#')[1], post_per_page);
+	var anchor = window.location.hash.split('#')[1];
+	
+	cmdTuples = [];
+	
+	if (anchor){
+		cmdTuples = parse_anchor(anchor);
 	}
-	else if (start != null)
+	
+	cmdTuplesLen = cmdTuples.length;
+	
+	for (var i = 0; i < cmdTuplesLen;i++)
+	{
+		if (cmdTuples[i][0] == "start")
+		{
+			start = cmdTuples[i][1];
+		}
+	}
+	
+	//alert(window.location.hash.split('#')[1]);
+	if (start != null)
 	{
 		change_page(start, post_per_page);
 	}
 	
 	//Pagiation
-	$('.number').click(function() {
+	$('.number').click(function()
+	{
 		var name = $(this).attr('name');
 		change_page(name, post_per_page);
 	});
 	
-	$('a.older').click(function() {
+	$('a.older').click(function()
+	{
 		var name = $('.number.selected').attr('name');
 		var oldnum = parseInt(name);
 		var num = oldnum+parseInt(post_per_page);
@@ -98,7 +174,7 @@ var main = function() {
 		$('.edit_body[name="'+btn_name+'"]').find('textarea').trigger('autosize.resize');
 	});
 	
-	//
+	//New topic button
 	$('#new_topic_btn').click(function() {
 		$('#new_topic').toggle();
 	});

@@ -41,7 +41,8 @@ if (!$is_logged_in&&$_GET["op"]=="3") require "embedded_register.php"; 			// log
 if (!$is_logged_in&&$_GET["op"]=="1") require "embedded_login.php"; 			// login_check.php
 if ($is_logged_in&&$_GET["op"]=="2") require "embedded_logout.php"; 			// login_check.php
 require "userdata.php";															// login_check.php, embedded_login.php*
-require "reply_handler.php";														// userdata.php
+require "post_handler.php";														// userdata.php, strint.php
+require "datetime_interpreter.php";
 
 
 

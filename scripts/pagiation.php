@@ -27,10 +27,10 @@ function pagiation($start,$ipp = 15,$num_rows, $js=False, $loadstart=0, $ppl=10)
 	{
 		echo "<div class=\"pagiation\">\n";
 		if ($start > 0) echo "<a name=\"".($start-$ipp)."\" class=\"newer active\" href=\"javascript:void();\">&larr; Newer Content</a>\n"; // strint it so it doesn't go negative
-		else echo "<a class=\"newer\" href=\"javascript:void();\">&larr; Newer Content</a>\n";
+		else echo "<a class=\"newer grey\" href=\"javascript:void();\">&larr; Newer Content</a>\n";
 		
 		if ($num_rows > $start+$ipp) echo "<a name=\"".($start+$ipp)."\" class=\"older active\" href=\"javascript:void();\">Older Content&rarr;</a>\n";
-		else echo "<a class=\"older\" href=\"javascript:void();\">Older Content &rarr;</a>\n";
+		else echo "<a class=\"older grey\" href=\"javascript:void();\">Older Content &rarr;</a>\n";
 		
 		echo "<div class=\"numbers\">\n";
 		

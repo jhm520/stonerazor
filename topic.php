@@ -4,9 +4,15 @@
 	require "scripts/header.php";
 	require "scripts/forum_script.php";
 	
-	function post_post($mysqli, $topic_id)
+	/*function post_post($mysqli, $topic_id)
+		{
+		$body = $mysqli->real_escape_string(strip_tags(nl2br($_POST["post_body"])));
+		post_handler($body,$topic_id,"post",$mysqli);
+		}*/
+	
+	/*function post_post($mysqli, $topic_id)
 	{
-		/*Get post body*/
+		//Get post body
 		//$post_body = $mysqli->real_escape_string(strip_tags(nl2br($_POST["post_body"]), '<br>'));
 		
 		// I altered this. We should not use strip tags because it deletes characters like <. We want
@@ -14,10 +20,10 @@
 		// the nl2br because I think it's better to store the data raw. 
 		$post_body = $mysqli->real_escape_string($_POST["post_body"]);
 		
-		/*Get current date*/
+		//Get current date
 		$date = date('Y-m-d H:i:s');
 		
-		/*Insert new post*/
+		//Insert new post
 		$prep_query = 
 			"INSERT INTO
 				post (user_id, post_timestamp, post_update, 
@@ -33,7 +39,7 @@
 		
 		$update_topic = $mysqli->query($prep_query) or die("Error:" . $mysqli->error);
 		
-		/*Delete all the readtopics from this topic, since this topic is being updated with a new post*/
+		//Delete all the readtopics from this topic, since this topic is being updated with a new post
 		$delete_readtopic = "
 			DELETE FROM
 				readtopic
@@ -45,16 +51,16 @@
 		if ($post_post && $update_topic){
 			header('Location:'.$_SERVER['PHP_SELF'].'?topic_id='.$topic_id);
 		}
-	}
+	}*/
 	
-	function edit_post($mysqli, $post_id){
+	/*function edit_post($mysqli, $post_id){
 		//$edit_body = $mysqli->real_escape_string(strip_tags(nl2br($_POST["edit_body"]), '<br>'));
 		$edit_body = $mysqli->real_escape_string($_POST["edit_body"]);
 		
 		$update_query = "UPDATE post SET post_body='".$edit_body."' WHERE post_id=".$post_id." LIMIT 1;";
 		
 		$update_post = $mysqli->query($update_query) or die("Error:" . $mysqli->error);
-	}
+	}*/
 	
 	function delete_post($mysqli, $post_id){
 	  $delete_body = "This post has been deleted.";
@@ -70,11 +76,14 @@
 	{
 		if ($_POST["post_submit"])
 		{
-			post_post($mysqli, $topic_id);
+			//post_post($mysqli, $topic_id);
+			post_handler($_POST["post_body"],$topic_id,"post",$mysqli);
+			
 		}
 		else if ($_POST["edit_submit"])
 		{
-			edit_post($mysqli, $_POST["edit_post"]);
+			//edit_post($mysqli, $_POST["edit_post"]);
+			post_handler($_POST["edit_body"],$_POST["edit_post"],"update",$mysqli);
 		}
 		else if ($_GET["delete_post"])
 		{
@@ -111,34 +120,25 @@
 						FROM
 							topic
 						WHERE
-							topic_id=".$topic_id;
+							topic_id=" . $topic_id . " LIMIT 1";
 		
 		$topic_result = $mysqli->query($topic_query) or die("Error:" . $mysqli->error);
 		
-		/*
-		Make sure there's only one topic with this id
-		*/
-		if (mysqli_num_rows($topic_result) == 1)
-		{
-			$topic = $topic_result->fetch_array();
-			
-			$forum_query = "
-				SELECT
-					forum_id, forum_title, forum_read, forum_write, forum_moderate
-				FROM
-					forum
-				WHERE
-					forum_id=".$topic["forum_id"]."
-				LIMIT
-					1";
-			
-			$forum_result = $mysqli->query($forum_query) or die("Error:". $mysqli->error);
-			
-			if (mysqli_num_rows($forum_result) == 1)
-			{
-				$forum = $forum_result->fetch_array();
-			}
-		}
+		$topic = $topic_result->fetch_array();
+		
+		$forum_query = "
+			SELECT
+				forum_id, forum_title, forum_read, forum_write, forum_moderate
+			FROM
+				forum
+			WHERE
+				forum_id=".$topic["forum_id"]."
+			LIMIT
+				1";
+		
+		$forum_result = $mysqli->query($forum_query) or die("Error:". $mysqli->error);
+		
+		$forum = $forum_result->fetch_array();
 	}
 	else
 	{
@@ -220,7 +220,7 @@ l-37.252,37.253c29.758,29.757,70.867,48.162,116.273,48.162c90.814,0,164.436-73.6
 		
 		$num_all_post = mysqli_num_rows($all_post);
 	
-		$post_per_page = 10;
+		$post_per_page = 5;
 		$page_per_load = 10;
 		$post_per_load = $post_per_page*$page_per_load;
 		
@@ -290,6 +290,12 @@ l-37.252,37.253c29.758,29.757,70.867,48.162,116.273,48.162c90.814,0,164.436-73.6
 		$post_count = 0;
 		while ($post = $post_result->fetch_array())
 		{
+		
+			// get reply data
+			
+			$repliers = "";
+			$repliees = "";
+		
 			if ($post_count+$loadstart < $start)
 			{
 				$noshow = "noshow";
@@ -318,12 +324,17 @@ l-37.252,37.253c29.758,29.757,70.867,48.162,116.273,48.162c90.814,0,164.436-73.6
 						<ul>
 							<li class="avatar"></li>
 							<li class="username">Username: <a href="user.php?user_id=<?php echo $post["user_id"]; ?>"><?php echo $post["user_name"]; ?></a></li>
-							<li class="timestamp">Posted at: <?php echo $post["post_timestamp"]; ?></li>
-							<li class="buttons"><?php echo $edit_btn." " .$delete_btn;?></li>
+							<li class="timestamp"><span title="<?php echo $post["post_timestamp"]; ?>">Posted <?php echo datetime_interpreter($post["post_timestamp"]); ?></span></li>
+							<li class="buttons">post id: <?php echo $post["post_id"]; ?><?php echo "; " . $edit_btn." " .$delete_btn;?></li>
 						</ul>
 					</div>
 					<div class="post_body" name="<?php echo $post["post_id"]; ?>">
-						<div class="text_body" name="<?php echo $post["post_id"]; ?>"><?php echo nl2br(htmlentities($post["post_body"]),false); ?></div>
+						<div class="text_body" name="<?php echo $post["post_id"]; ?>">
+							<?php
+							echo nl2br(htmlentities($post["post_body"]),false); 
+							echo $repliers . $repliees;
+							?>
+							</div>
 						<?php 
 							if ($post["user_id"] == $userdata["user_id"])
 							{

@@ -95,8 +95,8 @@ if (isset($_POST['username'], $_POST['email'], $_POST['p'])) {
             }else{
 				//header('Location: ./register_success.php');
 			}
-			
         }
+		mail("jhm520@gmail.com", "Some guy registered.", "Just letting you know dawg.");
     }
 }
 ?>

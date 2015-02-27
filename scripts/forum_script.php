@@ -1,7 +1,11 @@
 <?php
 	require_once "pagiation.php";
 	
-	function post_topic ($mysqli, $forum_id) {
+	/*function post_topic ($mysqli, $forum_id) {
+		post_handler($_POST["topic_body"],$forum_id,"topic",$mysqli,$_POST["topic_subject"]);
+		}*/
+	
+	/*function post_topic ($mysqli, $forum_id) {
 	
 		//$topic_subject = $mysqli->real_escape_string(strip_tags($_POST["topic_subject"]));
 		//$topic_post_body = $mysqli->real_escape_string(strip_tags(nl2br($_POST["topic_body"]), "<br>"));
@@ -11,7 +15,7 @@
 		$topic_subject = $mysqli->real_escape_string(htmlentities($_POST["topic_subject"]));
 		$topic_post_body = $mysqli->real_escape_string($_POST["topic_body"]);
 		
-		/*Get current date*/
+		/*Get current date*//*
 		$date = date('Y-m-d H:i:s');
 		
 		$prep_query = 
@@ -41,7 +45,7 @@
 		if ($post_topic_post){
 			header('Location: topic.php?topic_id='.$topic_id);
 		}
-	}
+	}*/
 	
 	/*Print formatted HTML for each topic*/
 	function print_topics ($mysqli, $forum_id)
@@ -153,8 +157,9 @@
 				
 				$delete = '';
 				
-				// parse the date and time
+				// parse the date and time -- Now in a separate file. datetime_interpreter.php
 				
+				/*
 				$current_datetime = new DateTime();
 				$post_datetime = new DateTime($lastpost["post_timestamp"]);
 				$topic_datetime = new DateTime($row["topic_timestamp"]);
@@ -172,15 +177,15 @@
 				foreach ($topic_datetime_array as $key => $val)
 				  {
 				  if ((int)$val>0) $topic_datetime_text = $val . " " . $datetype_type_cycle[$key] . " ago";
-				  }
+				  }*/
 				
 				
 				/*print the HTML*/
 				echo '<li class="'.$topic_read.'">
 					<ul>
 					  <li class="title">'.$numposts.' replies</li>
-						<li class="reply">Last reply by <a href="user.php?user_id='.$lastpost["user_id"].'">'.$lastpost["user_name"].'</a> ' . $post_datetime_text . '</li>
-						<li class="author">Posted by <a href="user.php?user_id='.$row["user_id"].'">'.$row["user_name"].'</a> ' . $topic_datetime_text . '</li>'
+						<li class="reply">Last post by <a href="user.php?user_id='.$lastpost["user_id"].'">'.$lastpost["user_name"].'</a> ' . datetime_interpreter($lastpost["post_timestamp"]) . '</li>
+						<li class="author">Posted by <a href="user.php?user_id='.$row["user_id"].'">'.$row["user_name"].'</a> ' . datetime_interpreter($row["topic_timestamp"]) . '</li>'
 						. $delete . '
 					</ul><a href="topic.php?topic_id='.$row["topic_id"].'">'.$row["topic_subject"].'</a></li>';
 				$topic_count++;

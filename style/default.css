@@ -184,11 +184,13 @@ li.icon32 svg {
  box-shadow: 0 0 15px #111;
  }
 
-div.titlebar {
- background-color: #604020; /*D95715*/
- border-radius: 5px 5px 0 0;
- height: 30px;
- }
+div.titlebar 
+{
+	background-color: #604020;
+	/*background-color: #604020; /*D95715*/
+	border-radius: 5px 5px 0 0;
+	height: 30px;
+}
 
 div.titlebar ul {
  padding: 0;

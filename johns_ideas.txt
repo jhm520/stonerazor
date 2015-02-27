@@ -1,4 +1,9 @@
-
+- user
+	- user_permission:
+		0 - admin
+		1 - moderator
+		2 - user
+		3 - guest
 - topic.php:
 	- Access first 10 pages of posts on first php load.
 	

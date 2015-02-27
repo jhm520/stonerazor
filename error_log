@@ -756,3 +756,15 @@
 [15-Feb-2015 23:28:44 America/Los_Angeles] PHP Warning:  require(reply_handler): failed to open stream: No such file or directory in /home3/croston/public_html/scripts/header.php on line 44
 [15-Feb-2015 23:28:44 America/Los_Angeles] PHP Fatal error:  require(): Failed opening required 'reply_handler' (include_path='.:/opt/php54/lib/php') in /home3/croston/public_html/scripts/header.php on line 44
 [16-Feb-2015 00:33:02 America/Los_Angeles] PHP Parse error:  syntax error, unexpected '}' in /home3/croston/public_html/scripts/reply_handler.php on line 53
+[21-Feb-2015 22:46:05 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home3/croston/public_html/topic.php on line 276
+[21-Feb-2015 21:11:00 America/Los_Angeles] PHP Warning:  require(reply_handler.php): failed to open stream: No such file or directory in /home3/croston/public_html/scripts/header.php on line 44
+[21-Feb-2015 21:11:00 America/Los_Angeles] PHP Warning:  require(reply_handler.php): failed to open stream: No such file or directory in /home3/croston/public_html/scripts/header.php on line 44
+[21-Feb-2015 21:11:00 America/Los_Angeles] PHP Fatal error:  require(): Failed opening required 'reply_handler.php' (include_path='.:/opt/php54/lib/php') in /home3/croston/public_html/scripts/header.php on line 44
+[21-Feb-2015 21:11:08 America/Los_Angeles] PHP Warning:  require(reply_handler.php): failed to open stream: No such file or directory in /home3/croston/public_html/scripts/header.php on line 44
+[21-Feb-2015 21:11:08 America/Los_Angeles] PHP Warning:  require(reply_handler.php): failed to open stream: No such file or directory in /home3/croston/public_html/scripts/header.php on line 44
+[21-Feb-2015 21:11:08 America/Los_Angeles] PHP Fatal error:  require(): Failed opening required 'reply_handler.php' (include_path='.:/opt/php54/lib/php') in /home3/croston/public_html/scripts/header.php on line 44
+[22-Feb-2015 14:38:50 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home3/croston/public_html/test.php on line 3
+[22-Feb-2015 12:58:31 America/Los_Angeles] PHP Fatal error:  Call to undefined method mysqli_result::fetch_rows() in /home3/croston/public_html/scripts/post_handler.php on line 150
+[22-Feb-2015 12:58:54 America/Los_Angeles] PHP Fatal error:  Call to undefined method mysqli_result::fetch_rows() in /home3/croston/public_html/scripts/post_handler.php on line 150
+[22-Feb-2015 13:17:01 America/Los_Angeles] PHP Fatal error:  Call to undefined method mysqli::error() in /home3/croston/public_html/scripts/post_handler.php on line 185
+[22-Feb-2015 15:44:09 America/Chicago] PHP Parse error:  syntax error, unexpected 'post_handler' (T_STRING) in /home3/croston/public_html/topic.php on line 10

@@ -68,7 +68,7 @@ if (!$is_logged_in)
 <?php
 	}
 if ($newtopicbox_on)
-  {
+	{
 ?>
 	<div id="newtopicbox">
 	  <form action="forum.php?forum_id=<?php echo $forum_id; ?>" method="post" name="newtopic_form">
@@ -130,6 +130,8 @@ z"/> </svg>
 			if ($is_logged_in)
 			{
 			?>
+			<!--
+			Commenting the message and friend buttons out for now.
 			<li class="newmsg"><a accesskey="m" href="msg.php">Messages</a>
 				<ul>
 					<li class="unread"><a href="msg.php?msg_id=52">Unread message</a></li>
@@ -142,6 +144,7 @@ z"/> </svg>
 					<li><a href="user.php">All users</a></li>
 				</ul>
 			</li>
+			-->
 			<?php
 			}
 			?>

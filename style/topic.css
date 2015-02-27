@@ -47,7 +47,7 @@ div#postlist > ul > li.noshow
 }
 
 div#postlist ul li div.post_body {
-	position: relative;
+	/*position: relative;*/
 	word-wrap: break-word;
 	margin-left: 302px;
 	/*border-left: 1px solid #A0A080;*/

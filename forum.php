@@ -1,6 +1,6 @@
 <?php
 	$additional_stylesheets = array("forum.css");
-	$additional_scripts = array("sha512.js","forms.js","jquery-1.11.1.min.js","forum.js", "jquery.autosize.js", "jquery.autosize.min.js");
+	$additional_scripts = array("sha512.js","forms.js","jquery-1.11.1.min.js","forum.js");
 	$newtopicbox_on = true;
 	require "scripts/header.php";
 	require "scripts/forum_script.php";
@@ -35,7 +35,8 @@
 		
 		if ($_POST["topic_submit"] && $user_write)
 		{
-			post_topic($mysqli, $forum_id);
+			//post_topic($mysqli, $forum_id); Out with the old; in with the new...
+			post_handler($_POST["topic_body"],$forum_id,"topic",$mysqli,$_POST["topic_subject"]);
 		}
 		else if ($_GET["read_all_topics"] && $user_read)
 		{

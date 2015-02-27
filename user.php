@@ -6,11 +6,30 @@
 	
 	$user_id = strint($_GET["user_id"]);
 	
-	$user_query = "SELECT user_id, user_name, user_timestamp, user_numpost FROM user WHERE user_id = ".$user_id." LIMIT 1";
+	$user_query = "
+		SELECT 
+			user_id, user_name, user_timestamp, user_numpost
+		FROM
+			user
+		WHERE 
+			user_id = ".$user_id."
+		LIMIT 
+			1";
 	
 	$user_result = $mysqli->query($user_query) or die("Error: " . $mysqli->error);
 	
-	$user = $user_result->fetch_array();
+	if ($user = $user_result->fetch_array()){
+		$post_query = "
+			SELECT
+				post_id, post_timestamp, post_update, post_body
+			FROM
+				post
+			WHERE
+				user_id = ".$user["user_id"]."
+			LIMIT
+				1";
+		//echo $post_query;
+	}
 	
 ?>
 <div id="container">
@@ -24,7 +43,7 @@
 if ($is_logged_in && $userdata["user_id"] == $user_id) // should check permissions in the future.
 	{
 ?>
-				<li><a id="new_topic_btn" href="#" onmouseover="titletext('Create post','1');" onmouseout="titletext('&nbsp;','1');">
+				<li><a id="new_topic_btn" href="javascript: void();" onmouseover="titletext('Create post','1');" onmouseout="titletext('&nbsp;','1');">
 
 <svg
 version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -63,7 +82,7 @@ l-37.252,37.253c29.758,29.757,70.867,48.162,116.273,48.162c90.814,0,164.436-73.6
 		<br>
 		<img id="userpic" src="img/snoop.gif">
 		<br>
-		<span id="userjoined"><?php echo $user["user_timestamp"];?></span>
+		<span id="userjoined">Joined: <?php echo datetime_interpreter($user["user_timestamp"]);?></span>
 		<br>
 		<span id="usernumposts"><?php echo $user["user_numpost"];?></span>
 	</div>

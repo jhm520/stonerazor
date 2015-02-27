@@ -43,10 +43,10 @@
 			<div id="forumlist">
 			  <ul>
 			    <li>
-			      <a id="gen" href="forum.php?forum_id=3">General Conversation</a>
+			      <a id="gen" href="forum.php?forum_id=3">General</a>
 			    </li>
 			    <li>
-			      <a id="rbs" href="forum.php?forum_id=1">Random Bullshit</a>
+			      <a id="rbs" href="forum.php?forum_id=1">Random</a>
 			    </li>
 			    <li>
 			      <a id="dev" href="forum.php?forum_id=4">Development</a>
